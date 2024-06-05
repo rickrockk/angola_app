@@ -1,0 +1,27 @@
+.footer{
+  flex: 0 0 auto;
+  margin-top: 2em;
+  background-color: #EFF5F9;
+
+  .footer_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  ul{
+    align-items: flex-start;
+    padding: 10px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  li{
+    color: #66727F;
+    margin: 5px;
+  }
+  .social{
+    margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+  }
+}

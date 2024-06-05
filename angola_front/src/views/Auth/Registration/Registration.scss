@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2rem 4rem;
+
+  .auth__logo {
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .register__header {
+    margin: 1rem 0;
+  }
+
+  .form-input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+
+    &:focus {
+      outline: none;
+      border-color: #cc2229;
+    }
+  }
+
+  .form-submit {
+    width: 100%;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #cc2229;
+    color: white;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+
+    &:hover {
+      background-color: #a81b22;
+    }
+  }
+}
+
+.login-prompt {
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+}

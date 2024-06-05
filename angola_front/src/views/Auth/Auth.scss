@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.container{
+  flex: 1 0 auto;
+}
+.name {
+  padding: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px; 
+  }
+
+  h1 span {
+    color: #cc2229;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px; 
+  }
+  
+
+  .gray{
+    color: #66727F;
+  }
+
+ 
+
+  .first {
+    margin-bottom: 30px; 
+    padding: 12px 18px; 
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+    background-color: #cc2229;
+    color: white;
+    height: 40px; 
+    width: 315px; 
+}
+
+  .auth__logo {
+    margin-bottom: 2rem;
+  }
+
+.second {
+    margin-bottom: 30px;
+    padding: 12px 18px; 
+    border: 2px solid #cc2229;
+    border-radius: 6px; 
+    cursor: pointer;
+    background-color: white;
+    color: #cc2229;
+    height: 40px; 
+    width: 315px; 
+}
+
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.articles__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 17.5rem;
+  max-height: 30rem;
+
+  .article__date {
+    color: #4D83FA;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+  }
+
+  .article__title {
+    color: #0B1F33;
+    margin-bottom: 1em;
+    line-height: 24px
+  }
+
+  .article__desc {
+    color: #66727F;
+    line-height: 24px;
+  }
+}

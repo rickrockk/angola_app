@@ -1,0 +1,124 @@
+.main__docs-recovery {
+  .docs-recovery__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    .docs-recovery__content {
+      padding-top: 1.5rem;
+      .content__heading {
+        .content__header {
+          color: #0B1F33;
+          font-size: 2.5rem;
+          margin-top: 3rem;
+        }
+      }
+      .content__body {
+        padding-top: 3rem;
+        .body__header {
+          margin-bottom: 3rem;
+
+          &_info {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      .heading__subheading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #66727F;
+        margin-top: 1rem;
+      }
+    }
+    .docs-recovery__aside {
+      margin-top: 3rem;
+      margin-left: auto;
+    }
+  }
+}
+
+.content__type {
+  background-color: #F5F7FA;
+  color: #66727F;
+  border-radius: 4px;
+  padding: .2rem .5rem;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  color: #0D4CD3;
+
+  .back-link__text {
+    margin-left: .4rem;
+  }
+}
+
+.block__header {
+  font-size: 1.2rem;
+  color: #0B1F33;
+  .header__mark {
+    color: #CC2229;
+    margin-right: .3rem;
+  }
+}
+
+.block__text {
+  line-height: 24px;
+  max-width: 810px;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.block__list {
+  list-style-image: url("../../assets/marker.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 3.5rem;
+
+  .block__item {
+    margin-top: 1rem;
+    line-height: 24px;
+    padding-left: 1rem;
+  }
+}
+
+.block__info {
+  background-color: #EDF2FE;
+  border-radius: 12px;
+  margin-top: 1.75rem;
+  margin-left: 2rem;
+  padding: 2rem 1.5rem;
+
+  .info__text {
+    line-height: 24px;
+    max-width: 787px;
+    &:not(:first-of-type) {
+      margin-top: 0.75rem;
+    }
+  }
+}
+
+.link__content {
+  display: flex;
+  align-items: center;
+
+  .link__text {
+    margin-left: 1rem;
+  }
+}
+
+.body__info {
+  box-shadow: 0px 24px 48px 0px rgba(230, 235, 245, 0.40), 0px 1px 4px 0px #E3EBFC;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+
+  .body__text {
+    line-height: 24px;
+    max-width: 856px;
+  }
+}
+

@@ -1,0 +1,27 @@
+.main__articles {
+  margin-top: 3em;
+  padding-bottom: 10em;
+  .articles__container {
+    .articles__heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2em;
+
+      .articles__showall {
+        color: #0D4CD3;
+      }
+    }
+    .articles__body {
+      .articles__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        justify-content: space-between;
+        list-style: none;
+      }
+    }
+  }
+}
+
+
