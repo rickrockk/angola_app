@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-   'rest_framework',
+    'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
     'django.contrib.admin',
@@ -42,11 +42,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authentication',
-    'application',
     'hospital',
     'passport',
     'med_insurance',
     'doctor',
+    'familyFarmingSupport',
+    'insuranceApplication',
+    'passportApplication',
+    'realEstateInfo',
+    'vaccinationApplication',
+    'appointment',
 
 ]
 
