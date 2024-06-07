@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'realEstateInfo',
     'vaccinationApplication',
     'appointment',
-
+    'estateRequest',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
