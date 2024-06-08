@@ -10,6 +10,7 @@ from realEstateInfo.views import RealEstateViewSet
 from familyFarmingSupport.views import FamFarmViewSet
 from vaccinationApplication.views import VacReqViewSet
 from appointment.views import AppReqViewSet
+from estateRequest.views import EstReqViewSet
 
 router = DefaultRouter()
 
@@ -24,3 +25,4 @@ router.register("realEstate", RealEstateViewSet, basename='realestate')
 router.register("famFarm", FamFarmViewSet, basename='familyfarming')
 router.register("vacReq", VacReqViewSet, basename='vaccinationrequest')
 router.register("appReq", AppReqViewSet, basename='appointmentrequest')
+router.register("estReq", EstReqViewSet, basename='estReq')

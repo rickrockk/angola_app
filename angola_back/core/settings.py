@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'realEstateInfo',
     'vaccinationApplication',
     'appointment',
+    'estateRequest'
 
 ]
 
@@ -100,10 +101,23 @@ AUTH_USER_MODEL = 'authentication.User'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'angola_db',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    }
+}
+"""
+
+DATABASES = {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+"""
 
 
 # Password validation

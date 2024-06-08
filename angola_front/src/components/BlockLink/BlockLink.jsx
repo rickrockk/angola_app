@@ -1,8 +1,8 @@
 import './BlockLink.scss'
 
-export const BlockLink = ({children}) => {
+export const BlockLink = ({children, onClick}) => {
     return (
-        <div className='block__link'>
+        <div className='block__link' onClick={onClick}>
             {children}
             <svg className="block__btn" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" transform="rotate(-90 12 12)" fill="#FFCB00"/>
