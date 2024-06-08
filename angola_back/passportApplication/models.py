@@ -23,8 +23,8 @@ class PasApp(models.Model):
     ]
 
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
-    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES)
-    passport_data = models.OneToOneField(Passport, on_delete=models.CASCADE, related_name='passport_application', default=1)
+    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES, default= 'Получение паспорта')
+    passport_data = models.OneToOneField(Passport, on_delete=models.CASCADE, related_name='passport_app', default=1)
     cause = models.CharField(verbose_name='причина', max_length=50, choices=CAUSE_CHOICES, default='Достижение 20 или 45 лет')
     passport_scan = models.ImageField(upload_to='passport_scans/', verbose_name='Скан паспорта',default=None, blank=False, null=True)
     signature_scan = models.ImageField(upload_to='signature_scans/', verbose_name='Скан подписи', default=None, blank=False, null=True)

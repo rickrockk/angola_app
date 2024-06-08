@@ -1,13 +1,13 @@
-from rest_framework import viewsets, permissions
+# pasapp/views.py
+from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated
 from .models import PasApp
 from .serializers import PasAppSerializer
 
 class PasAppViewSet(viewsets.ModelViewSet):
+    queryset = PasApp.objects.all()
     serializer_class = PasAppSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
-        return PasApp.objects.filter(user=self.request.user)
-
-    def perform_create(self, serializer):
-        serializer.save(user=self.request.user, passport_data=self.request.user.passport)
+        return self.queryset.filter(user=self.request.user)

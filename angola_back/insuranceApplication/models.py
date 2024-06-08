@@ -25,8 +25,7 @@ class InsApp(models.Model):
 
 
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
-    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES)
-    reason = models.CharField(max_length=255)
+    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES,default='Получение')
     passport_data = models.OneToOneField(Passport, on_delete=models.CASCADE, related_name='insurance_app', default=1)
     passport_scan = models.ImageField(upload_to='passport_scans/', verbose_name='Скан паспорта', default=None, blank=False, null=True)
     signature_scan = models.ImageField(upload_to='signature_scans/', verbose_name='Скан подписи',default=None, blank=False, null=True)
