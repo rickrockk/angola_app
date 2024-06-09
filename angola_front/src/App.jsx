@@ -16,6 +16,8 @@ import Notifications from "./views/Notifications/Notifications";
 import {PrivateRoute} from "./privateRoute/privateRoute.jsx";
 import Registration from "./views/Auth/Registration/Registration";
 import Login from "./views/Auth/Login/Login";
+import FarmerGrantForm from "./views/Grant/grant.jsx";
+import Vaccination from './views/Vacination/vaccination.jsx'
 
 function App() {
     useEffect(() => {
@@ -25,7 +27,7 @@ function App() {
             userStore.fetchInsurance();
         }
     }, []);
-  return (
+return (
     <div className="app">
         <BrowserRouter>
             <Header/>
@@ -40,10 +42,13 @@ function App() {
                 </Route>
                 <Route path="/register" element={<Registration/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/grant" element = {<FarmerGrantForm/>}/>
+                <Route path="/vaccination" element = {<Vaccination/>}/>
+
             </Routes>
         </BrowserRouter>
     </div>
-  )
+)
 }
 
 export default observer(App)
