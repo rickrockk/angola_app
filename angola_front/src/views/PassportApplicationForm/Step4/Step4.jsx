@@ -1,12 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Step4.scss';
+import { useTranslation } from 'react-i18next';
 
 const Step4 = ({ prevStep, goToStep, nextStep, applicationType }) => {
+    const { t } = useTranslation();
+
     const handleForward = () => {
         if (applicationType === 'получение') {
             goToStep(6);
         } else {
-            nextStep()
+            nextStep();
         }
     }
 
@@ -25,23 +28,23 @@ const Step4 = ({ prevStep, goToStep, nextStep, applicationType }) => {
                     <svg className="btn-arrow" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#CC2229"/>
                     </svg>
-                    Назад
+                    {t('passport_application.step4.back_button')}
                 </button>
-                <h2 className="form__header">Для подачи заявления вам потребуется</h2>
+                <h2 className="form__header">{t('passport_application.step4.header')}</h2>
                 <ul className="requirements-list">
-                    <li className="requirement-item">Ваша фотография (как на паспорт)</li>
-                    <li className="requirement-item">Данные свидетельства о заключении или расторжении брака (в случае соответствующего семейного положения)</li>
-                    <li className="requirement-item">Свидетельство о рождении</li>
-                    <li className="requirement-item">Данные загранпаспорта (при наличии)</li>
+                    <li className="requirement-item">{t('passport_application.step4.requirements.0')}</li>
+                    <li className="requirement-item">{t('passport_application.step4.requirements.1')}</li>
+                    <li className="requirement-item">{t('passport_application.step4.requirements.2')}</li>
+                    <li className="requirement-item">{t('passport_application.step4.requirements.3')}</li>
                 </ul>
-                <h3 className="form-subheader">Срок исполнения</h3>
-                <p className="form-text">Оформление паспорта займет до 10 календарных дней</p>
-                <h3 className="form-subheader">Стоимость</h3>
-                <p className="form-text">Пошлину можно будет оплатить после проверки заявления в МВД республики Анголы</p>
-                <p className="form-text">210₽</p>
-                <h3 className="form-subheader">Что дальше</h3>
-                <p className="form-text">Дождитесь приглашения для подачи оригиналов документов</p>
-                <button className="submit-button" onClick={handleForward}>Далее</button>
+                <h3 className="form-subheader">{t('passport_application.step4.execution_time.subheader')}</h3>
+                <p className="form-text">{t('passport_application.step4.execution_time.text')}</p>
+                <h3 className="form-subheader">{t('passport_application.step4.cost.subheader')}</h3>
+                <p className="form-text">{t('passport_application.step4.cost.text1')}</p>
+                <p className="form-text">{t('passport_application.step4.cost.text2')}</p>
+                <h3 className="form-subheader">{t('passport_application.step4.what_next.subheader')}</h3>
+                <p className="form-text">{t('passport_application.step4.what_next.text')}</p>
+                <button className="submit-button" onClick={handleForward}>{t('passport_application.step4.next_button')}</button>
             </div>
         </div>
     );

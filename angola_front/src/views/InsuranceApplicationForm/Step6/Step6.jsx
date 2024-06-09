@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Step6.scss';
+import { useTranslation } from 'react-i18next';
 
 const Step6 = ({ prevStep, updateFormData, submitFormData }) => {
+    const { t } = useTranslation();
     const insuranceCompanies = [
         { name: "ООО Nossa Seguros", value: "страховая 1" },
         { name: "ООО Seguríssimos", value: "страховая 2" },
@@ -22,7 +24,7 @@ const Step6 = ({ prevStep, updateFormData, submitFormData }) => {
         if (selectedCompany) {
             submitFormData();
         } else {
-            setErrorMessage("Пожалуйста, выберите страховую компанию перед продолжением.");
+            setErrorMessage(t('insurance_application.step6.alert_message'));
         }
     };
 
@@ -37,20 +39,20 @@ const Step6 = ({ prevStep, updateFormData, submitFormData }) => {
                     <svg className="btn-arrow" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#CC2229"/>
                     </svg>
-                    Назад
+                    {t('insurance_application.step6.back_button')}
                 </button>
-                <h2 className="form__header">Выберите страховую компанию</h2>
+                <h2 className="form__header">{t('insurance_application.step6.header')}</h2>
                 <div className="insurance-dropdown">
-                    <label htmlFor="insurance">Выберите страховую компанию:</label>
+                    <label htmlFor="insurance">{t('insurance_application.step6.select_label')}</label>
                     <select id="insurance" onChange={handleChange} value={selectedCompany}>
-                        <option value="">Страховая компания</option>
+                        <option value="">{t('insurance_application.step6.select_placeholder')}</option>
                         {insuranceCompanies.map((company, index) => (
                             <option key={index} value={company.value}>{company.name}</option>
                         ))}
                     </select>
                 </div>
                 {errorMessage && <p className="error-message">{errorMessage}</p>}
-                <button className="submit-button" onClick={handleSubmit}>Отправить заявление</button>
+                <button className="submit-button" onClick={handleSubmit}>{t('insurance_application.step6.submit_button')}</button>
             </div>
         </div>
     );

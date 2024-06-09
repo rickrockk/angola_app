@@ -1,0 +1,32 @@
+.language-switcher {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  gap: 7px;
+}
+
+.language-option {
+  cursor: pointer;
+  font-size: 16px;
+  color: black; /* Adjust the color as per your design */
+  position: relative;
+}
+
+.language-option::after {
+  content: '';
+  display: block;
+  margin-top: 5px;
+  height: 2px;
+  width: 0;
+  background: black; /* Adjust the color as per your design */
+  transition: width 0.3s;
+}
+
+.language-option.active::after {
+  width: 100%;
+}
+
+.language-option:hover::after {
+  width: 100%;
+}

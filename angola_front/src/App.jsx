@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
+import './i18n';
 import {useEffect} from "react";
 import {userStore} from "./stores/userStore.js";
 import {observer} from "mobx-react-lite";
@@ -21,6 +22,7 @@ import Registration from "./views/Auth/Registration/Registration";
 import Login from "./views/Auth/Login/Login";
 import FarmerGrantForm from "./views/Grant/grant.jsx";
 import Vaccination from './views/Vacination/vaccination.jsx'
+import LanguageSwitcher from "./components/LanguageSwitcher/LanguageSwitcher.jsx";
 
 function App() {
     useEffect(() => {
@@ -32,6 +34,7 @@ function App() {
     }, []);
 return (
     <div className="app">
+        <LanguageSwitcher />
         <BrowserRouter>
             <Header/>
             <Routes>

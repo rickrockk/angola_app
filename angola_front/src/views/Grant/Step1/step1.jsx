@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import './step1.scss';
 
 function Step1({ updateFormData, nextStep, resetForm }) {
+    const { t } = useTranslation();
 
     const handleSubmit = () => {
-        // Здесь добавьте логику для обработки отправки данных формы
-        // Например, вызов updateFormData() для обновления данных формы
         nextStep(); // Переход на следующий шаг
     };
 
@@ -18,55 +18,50 @@ function Step1({ updateFormData, nextStep, resetForm }) {
                             <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#0D4CD3" />
                         </svg>
                         <p className="back-link__text">
-                            Назад
+                            {t('grants_application.step1.back_button')}
                         </p>
                     </Link>
                     <h3 className="content__header">
-                        Конкурс «Росмолодёжь.Гранты: Микрогранты»
+                        {t('grants_application.step1.header')}
                     </h3>
                 </div>
                 <div className="content__body">
-                    <p>Росмолодёжь объявила о запуске приёма заявок на Конкурс «Росмолодёжь.Гранты: Микрогранты»</p>
-                    <p>Конкурс проходит уже 3 года и даёт возможность молодому человеку в возрасте от 14 до 35 лет получить поддержку от государства до 100 000 ₽. В прошлом году от Республики Башкортостан победили 14 проектов на общую сумму 1 185 207 ₽</p>
+                    <p>{t('grants_application.step1.desc1')}</p>
+                    <p>{t('grants_application.step1.desc2')}</p>
                     <div className="grants_list">
-                        <p>В ТОП-3 номинаций среди наших участников вошли:</p>
+                        <p>{t('grants_application.step1.top_nominations')}</p>
                         <ul>
-                            <li>#сохраняй_природу</li>
-                            <li>#фермыфермыфермы</li>
-                            <li>#создавай_возможности</li>
+                            <li>{t('grants_application.step1.nominations.save_nature')}</li>
+                            <li>{t('grants_application.step1.nominations.farms')}</li>
+                            <li>{t('grants_application.step1.nominations.create_opportunities')}</li>
                         </ul>
                     </div>
-                    <p>Микрогранты помогают молодёжи реализовать небольшие, но важные социальные проекты с упрощённой системой отчётности</p>
-                    <p>Для участия необходимо подать заявку в личном кабинете в системе ФГАИС «Молодёжь России». Приём заявок пройдёт до 23:59 МСК 30 июня. Всего в конкурсе 18 номинаций, можно подать только один проект в рамках любой из них</p>
-                    <p>По вопросам участия и получения консультации обращайтесь в Молодёжный проектный офис Госкоммолодёжи РБ</p>
-                    <h4>Для кого</h4>
-                    <p>Для молодых людей в возрасте от 14 до 35 лет</p>
-                    <h4>Что даст программа </h4>
-                    <p>Возможность проявить свой талант и заявить о себе, получить поддержку от государства</p>
-                    <h4>Организатор</h4>
-                    <p>
-                        Росмолодёжь <br />
-                        mporb@mail.ru <br />
-                        +7 347 246-56-31
-                    </p>
-                    <h4>Формат</h4>
-                    <p>Онлайн</p>
-                    <h4>Период проведения</h4>
-                    <p>через 6 дней <br />
-                        14.06 - 30.06.24</p>
-                    <h4>Время проведения</h4>
-                    <p>09:00 - 23:59</p>
-                    <h4>Адрес проведения</h4>
-                    <p>Республика Башкортостан, г. Уфа</p>
-                    <button onClick={handleSubmit}>Подать заявку</button>
+                    <p>{t('grants_application.step1.desc3')}</p>
+                    <p>{t('grants_application.step1.desc4')}</p>
+                    <p>{t('grants_application.step1.contact_info')}</p>
+                    <h4>{t('grants_application.step1.for_whom')}</h4>
+                    <p>{t('grants_application.step1.for_whom_desc')}</p>
+                    <h4>{t('grants_application.step1.benefit')}</h4>
+                    <p>{t('grants_application.step1.benefit_desc')}</p>
+                    <h4>{t('grants_application.step1.organizer')}</h4>
+                    <p>{t('grants_application.step1.organizer_info')}</p>
+                    <h4>{t('grants_application.step1.format')}</h4>
+                    <p>{t('grants_application.step1.format_desc')}</p>
+                    <h4>{t('grants_application.step1.period')}</h4>
+                    <p>{t('grants_application.step1.period_desc')}</p>
+                    <h4>{t('grants_application.step1.time')}</h4>
+                    <p>{t('grants_application.step1.time_desc')}</p>
+                    <h4>{t('grants_application.step1.address')}</h4>
+                    <p>{t('grants_application.step1.address_desc')}</p>
+                    <button onClick={handleSubmit}>{t('grants_application.step1.submit_button')}</button>
                 </div>
             </div>
 
             <div className="docs-recovery__aside">
-                <h3 className="aside__header">Другие материалы по теме</h3>
-                <p className="aside__link">Регистрация ребёнка по месту жительства</p>
-                <span className="content__type">Документы</span>
-                <span className="content__type">Получение</span>
+                <h3 className="aside__header">{t('grants_application.step1.other_materials')}</h3>
+                <p className="aside__link">{t('grants_application.step1.registration')}</p>
+                <span className="content__type">{t('grants_application.step1.documents')}</span>
+                <span className="content__type">{t('grants_application.step1.receiving')}</span>
             </div>
         </div>
     );

@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import { useTranslation } from 'react-i18next';
 
 export function MedicalInsuranceData() {
+    const { t } = useTranslation();
     const [insurance, setInsurance] = useState(null);
     const [error, setError] = useState(null);
 
@@ -17,35 +19,35 @@ export function MedicalInsuranceData() {
                     if (response.data && response.data.length > 0) {
                         setInsurance(response.data[0]);
                     } else {
-                        setError('Данные полиса не найдены');
+                        setError(t('insurance.not_found'));
                     }
                 })
                 .catch(error => {
-                    setError(error.response?.data?.message || 'Ошибка при загрузке данных полиса');
+                    setError(t('insurance.error'));
                 });
         }
-    }, []);
+    }, [t]);
 
     if (error) {
         return <div className="profile-section"><p className="error-message">{error}</p></div>;
     }
 
     if (!insurance) {
-        return <div className="profile-section"><p>Loading...</p></div>;
+        return <div className="profile-section"><p>{t('insurance.loading')}</p></div>;
     }
 
     return (
         <div className="profile-section">
-            <h2 className="profile-title">Полис</h2>
+            <h2 className="profile-title">{t('insurance.title')}</h2>
             <div className="profile-details">
                 <p className="profile-item">
-                    <span className="profile-label">Номер полиса:</span> {insurance.policy_number}
+                    <span className="profile-label">{t('insurance.policy_number')}</span> {insurance.policy_number}
                 </p>
                 <p className="profile-item">
-                    <span className="profile-label">Страховая компания:</span> {insurance.insurer_name}
+                    <span className="profile-label">{t('insurance.insurer_name')}</span> {insurance.insurer_name}
                 </p>
                 <p className="profile-item">
-                    <span className="profile-label">Дата окончания:</span> {insurance.expiry_date}
+                    <span className="profile-label">{t('insurance.expiry_date')}</span> {insurance.expiry_date}
                 </p>
             </div>
         </div>

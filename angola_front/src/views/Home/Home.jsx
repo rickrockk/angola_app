@@ -1,8 +1,10 @@
 import Search from '../../components/Search/Search.jsx'
 import ArticlesList from "../../components/ArticlesList/ArticlesList.jsx";
 import './Home.scss'
+import {useTranslation} from "react-i18next";
 
 export default function Home() {
+    const { t } = useTranslation();
     return (
         <main className="main">
             <section className="main__home">
@@ -10,37 +12,37 @@ export default function Home() {
                     <div className="main__service">
                         <ul className="service__list">
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/heart.svg"/>
-                                <p className="service__title">Популярные услуги</p>
+                                <img className="service__img" src="src/assets/home/heart.svg" alt={t('home.popular_services')}/>
+                                <p className="service__title">{t('home.popular_services')}</p>
                             </li>
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/health.svg"/>
-                                <p className="service__title">Здоровье</p>
+                                <img className="service__img" src="src/assets/home/health.svg" alt={t('home.health')}/>
+                                <p className="service__title">{t('home.health')}</p>
                             </li>
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/folder.svg"/>
-                                <p className="service__title">Справки Выписки</p>
+                                <img className="service__img" src="src/assets/home/folder.svg" alt={t('home.documents')}/>
+                                <p className="service__title">{t('home.documents')}</p>
                             </li>
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/passport.svg"/>
-                                <p className="service__title">Регистрация Паспорт</p>
+                                <img className="service__img" src="src/assets/home/passport.svg" alt={t('home.registration_passport')}/>
+                                <p className="service__title">{t('home.registration_passport')}</p>
                             </li>
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/house.svg"/>
-                                <p className="service__title">Земля Дом</p>
+                                <img className="service__img" src="src/assets/home/house.svg" alt={t('home.land_house')}/>
+                                <p className="service__title">{t('home.land_house')}</p>
                             </li>
                             <li className="service__item">
-                                <img className="service__img" src="src/assets/home/other.svg"/>
-                                <p className="service__title">Прочее</p>
+                                <img className="service__img" src="src/assets/home/other.svg" alt={t('home.other')}/>
+                                <p className="service__title">{t('home.other')}</p>
                             </li>
                         </ul>
                     </div>
-                    <Search/>
+                    <Search />
                 </div>
             </section>
             <section className="main__payments">
                 <div className="payments__container container">
-                    <h2 className="payments__header">Проверить начисления и оплатить</h2>
+                    <h2 className="payments__header">{t('home.check_pay')}</h2>
                     <ul className="payments__list">
                         <li className="payments__item">
                             <svg className="payment__img" width="60" height="64" viewBox="0 0 60 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +50,8 @@ export default function Home() {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5873 17.0278H36.8974C37.3219 17.0278 37.6583 17.3859 37.6318 17.8095L35.9237 45.1404C35.8994 45.5282 35.5778 45.8304 35.1893 45.8304H24.2955C23.9069 45.8304 23.5853 45.5282 23.5611 45.1404L21.8529 17.8095C21.8264 17.3859 22.1628 17.0278 22.5873 17.0278ZM19.4399 17.9603C19.3264 16.1448 20.7682 14.61 22.5873 14.61H36.8974C38.7165 14.61 40.1583 16.1448 40.0449 17.9603L38.3367 45.2912C38.2328 46.9533 36.8545 48.2481 35.1893 48.2481H24.2955C22.6302 48.2481 21.2519 46.9533 21.148 45.2912L19.4399 17.9603ZM31.0044 23.5451C31.0044 24.2417 30.4396 24.8065 29.743 24.8065C29.0463 24.8065 28.4815 24.2417 28.4815 23.5451C28.4815 22.8484 29.0463 22.2836 29.743 22.2836C30.4396 22.2836 31.0044 22.8484 31.0044 23.5451ZM33.4221 23.5451C33.4221 25.577 31.7749 27.2242 29.743 27.2242C27.711 27.2242 26.0638 25.577 26.0638 23.5451C26.0638 21.5131 27.711 19.8659 29.743 19.8659C31.7749 19.8659 33.4221 21.5131 33.4221 23.5451ZM29.743 33.216C30.4396 33.216 31.0044 32.6512 31.0044 31.9546C31.0044 31.2579 30.4396 30.6931 29.743 30.6931C29.0463 30.6931 28.4815 31.2579 28.4815 31.9546C28.4815 32.6512 29.0463 33.216 29.743 33.216ZM29.743 35.6337C31.7749 35.6337 33.4221 33.9865 33.4221 31.9546C33.4221 29.9226 31.7749 28.2754 29.743 28.2754C27.711 28.2754 26.0638 29.9226 26.0638 31.9546C26.0638 33.9865 27.711 35.6337 29.743 35.6337ZM31.0044 40.3641C31.0044 41.0607 30.4396 41.6255 29.743 41.6255C29.0463 41.6255 28.4815 41.0607 28.4815 40.3641C28.4815 39.6674 29.0463 39.1026 29.743 39.1026C30.4396 39.1026 31.0044 39.6674 31.0044 40.3641ZM33.4221 40.3641C33.4221 42.396 31.7749 44.0432 29.743 44.0432C27.711 44.0432 26.0638 42.396 26.0638 40.3641C26.0638 38.3321 27.711 36.6849 29.743 36.6849C31.7749 36.6849 33.4221 38.3321 33.4221 40.3641Z" fill="white"/>
                             </svg>
                             <div className="payment__text">
-                                <h3 className="payment__title">Штрафы</h3>
-                                <p className="payment__desc">В течение 20 дней скидка 50% на штрафы ГИБДД</p>
+                                <h3 className="payment__title">{t('home.penalties.title')}</h3>
+                                <p className="payment__desc">{t('home.penalties.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">
@@ -64,8 +66,8 @@ export default function Home() {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0696 18.7179H22.0463V21.3688H18.0696C16.3621 21.3688 15.4187 22.572 15.4187 23.5377V27.1572H12.7678V23.5377C12.7678 20.8758 15.1415 18.7179 18.0696 18.7179ZM41.9276 42.5759H37.9516V45.2267H22.0463V42.5759H18.0696C16.3621 42.5759 15.4187 41.3728 15.4187 40.407V36.7968H12.7678V40.407C12.7678 43.0689 15.1415 45.2268 18.0696 45.2268H41.9276C44.8557 45.2268 47.2294 43.0689 47.2294 40.407V23.5377C47.2294 20.8758 44.8557 18.7179 41.9276 18.7179H37.9516V21.3688H41.9276C43.635 21.3688 44.5785 22.572 44.5785 23.5377V27.1572H47.2289V36.7968H44.5785V40.407C44.5785 41.3728 43.635 42.5759 41.9276 42.5759ZM31.3246 26.6698H28.6737V37.2733H31.3246V26.6698ZM24.6972 26.6699H22.0463V37.2735H24.6972V26.6699ZM35.3014 26.6698H37.9522V37.2733H35.3014V26.6698Z" fill="white"/>
                             </svg>
                             <div className="payment__text">
-                                <h3 className="payment__title">Государственные пошлины</h3>
-                                <p className="payment__desc">Скидка 30% на офомление пошлин через госуслуги</p>
+                                <h3 className="payment__title">{t('home.state_duties.title')}</h3>
+                                <p className="payment__desc">{t('home.state_duties.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">
@@ -81,8 +83,8 @@ export default function Home() {
                             </svg>
 
                             <div className="payment__text">
-                                <h3 className="payment__title">Судебные задолженности</h3>
-                                <p className="payment__desc">Поиск исполнительных производств по вашим данным</p>
+                                <h3 className="payment__title">{t('home.court_debts.title')}</h3>
+                                <p className="payment__desc">{t('home.court_debts.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">
@@ -97,8 +99,8 @@ export default function Home() {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M34.4348 18.4375C35.1428 18.4375 35.7865 18.6954 36.2371 19.1467L41.7086 24.4338C42.2235 24.9497 42.481 25.5944 42.481 26.3037V44.873C42.481 46.2915 41.3223 47.452 39.9062 47.452H21.7539C20.3377 47.452 19.1791 46.2915 19.1791 44.873V21.0166C19.1791 19.5981 20.3377 18.4375 21.7539 18.4375H34.4348ZM35.3359 26.3037H39.9062L34.4991 21.1455V25.4655C34.4991 25.9168 34.8854 26.3037 35.3359 26.3037ZM21.7539 21.0166V44.873H39.9062V28.8827H35.3359C33.4692 28.8827 31.9243 27.3353 31.9243 25.4655V21.0166H21.7539ZM33.4052 31.1395C33.9201 30.6237 34.6926 30.6237 35.2075 31.1395C35.6581 31.6553 35.6581 32.429 35.1432 32.9448L27.805 40.2952C27.5475 40.5531 27.2257 40.682 26.9038 40.682C26.582 40.682 26.2601 40.5531 26.0026 40.2952C25.4877 39.7794 25.4877 39.0056 26.0026 38.4898L33.4052 31.1395ZM34.3704 40.7457C35.2948 40.7457 36.0441 39.9951 36.0441 39.0693C36.0441 38.1435 35.2948 37.3929 34.3704 37.3929C33.4461 37.3929 32.6968 38.1435 32.6968 39.0693C32.6968 39.9951 33.4461 40.7457 34.3704 40.7457ZM28.9637 32.1705C28.9637 33.0964 28.2143 33.8469 27.29 33.8469C26.3657 33.8469 25.6164 33.0964 25.6164 32.1705C25.6164 31.2447 26.3657 30.4941 27.29 30.4941C28.2143 30.4941 28.9637 31.2447 28.9637 32.1705Z" fill="white"/>
                             </svg>
                             <div className="payment__text">
-                                <h3 className="payment__title">Налоговые задолженности</h3>
-                                <p className="payment__desc">Достаточно вашего ИНН для проверки задолженности</p>
+                                <h3 className="payment__title">{t('home.tax_debts.title')}</h3>
+                                <p className="payment__desc">{t('home.tax_debts.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">
@@ -125,8 +127,8 @@ export default function Home() {
                                 </defs>
                             </svg>
                             <div className="payment__text">
-                                <h3 className="payment__title">Счета за услуги</h3>
-                                <p className="payment__desc">Выберите поставщика и оплатите услуги</p>
+                                <h3 className="payment__title">{t('home.bills.title')}</h3>
+                                <p className="payment__desc">{t('home.bills.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">
@@ -141,8 +143,8 @@ export default function Home() {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.359 17.91C15.7147 17.91 15.1924 18.4323 15.1924 19.0767C15.1924 19.721 15.7147 20.2433 16.359 20.2433H17.5814V44.8328C17.5814 45.2451 17.799 45.6267 18.1537 45.8367C18.5085 46.0468 18.9477 46.054 19.3092 45.8557L22.9291 43.8699L25.6929 45.7908C26.0796 46.0595 26.5899 46.0695 26.9867 45.8161L30.0126 43.8837L33.0396 45.8162C33.4364 46.0695 33.9465 46.0595 34.3331 45.7909L37.0981 43.8698L40.7182 45.8557C41.0796 46.054 41.5189 46.0468 41.8736 45.8367C42.2284 45.6267 42.446 45.2451 42.446 44.8328V20.2433H43.6411C44.2854 20.2433 44.8078 19.721 44.8078 19.0767C44.8078 18.4323 44.2854 17.91 43.6411 17.91L16.359 17.91ZM40.1126 20.2433L19.9147 20.2433V42.8621L22.4404 41.4766C22.8286 41.2637 23.3038 41.2888 23.6673 41.5415L26.3861 43.4311L29.3845 41.5162C29.7674 41.2717 30.2574 41.2717 30.6403 41.5161L33.64 43.4312L36.3602 41.5414C36.7237 41.2888 37.1988 41.2637 37.5869 41.4766L40.1126 42.8621V20.2433ZM24.9746 25.8075C24.3303 25.8075 23.8079 26.3298 23.8079 26.9741C23.8079 27.6185 24.3303 28.1408 24.9746 28.1408L35.0259 28.1408C35.6702 28.1408 36.1926 27.6185 36.1926 26.9741C36.1926 26.3298 35.6702 25.8075 35.0259 25.8075L24.9746 25.8075ZM23.8079 33.4357C23.8079 32.7914 24.3303 32.2691 24.9746 32.2691L29.2823 32.2691C29.9266 32.2691 30.449 32.7914 30.449 33.4357C30.449 34.0801 29.9266 34.6024 29.2823 34.6024L24.9746 34.6024C24.3303 34.6024 23.8079 34.0801 23.8079 33.4357Z" fill="white"/>
                             </svg>
                             <div className="payment__text">
-                                <h3 className="payment__title">По номеру квитанции</h3>
-                                <p className="payment__desc">Достаточно вашего ИНН для проверки задолженности</p>
+                                <h3 className="payment__title">{t('home.invoice_number.title')}</h3>
+                                <p className="payment__desc">{t('home.invoice_number.desc')}</p>
                             </div>
                             <svg className="payment__arrow" xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
                                 <g opacity="0.5">

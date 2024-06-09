@@ -4,9 +4,10 @@ import { observer } from 'mobx-react-lite';
 import { authStore } from '../../../stores/authStore';
 import Logo from '../../../assets/auth_logo.svg';
 import './Login.scss';
-import {userStore} from "../../../stores/userStore.js";
+import { useTranslation } from 'react-i18next';
 
 const Login = () => {
+    const { t } = useTranslation();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
@@ -19,7 +20,7 @@ const Login = () => {
             navigate('/profile'); // Редирект на страницу профиля
             window.location.reload();
         } catch (error) {
-            setErrorMessage('Ошибка при авторизации. Проверьте ваши данные.');
+            setErrorMessage(t('login.error_message'));
         }
     };
 
@@ -28,11 +29,11 @@ const Login = () => {
             <div className="main">
                 <form className="login-form" onSubmit={handleSubmit}>
                     <img className="auth__logo" src={Logo} alt="Логотип" />
-                    <h3 className="login__header">Авторизация</h3>
+                    <h3 className="login__header">{t('login.header')}</h3>
                     <input
                         className="form-input"
                         type="email"
-                        placeholder="Email"
+                        placeholder={t('login.email_placeholder')}
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
@@ -40,14 +41,17 @@ const Login = () => {
                     <input
                         className="form-input"
                         type="password"
-                        placeholder="Пароль"
+                        placeholder={t('login.password_placeholder')}
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
                     {errorMessage && <p className="error-message">{errorMessage}</p>}
-                    <button type="submit" className="form-submit">Войти</button>
-                    <p className="register-prompt">Нет аккаунта? <Link to="/register"><span>Зарегистрироваться</span></Link></p>
+                    <button type="submit" className="form-submit">{t('login.submit_button')}</button>
+                    <p className="register-prompt">
+                        {t('login.register_prompt')}{' '}
+                        <Link to="/register"><span>{t('login.register_link')}</span></Link>
+                    </p>
                 </form>
             </div>
         </div>

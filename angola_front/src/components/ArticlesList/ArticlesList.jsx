@@ -1,37 +1,40 @@
-import React from "react"
-import './ArticlesList.scss'
+import React from "react";
+import './ArticlesList.scss';
 import Article from "./Article/Article.jsx";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 export default function ArticlesList() {
+    const { t } = useTranslation();
+
     return (
         <section className="main__articles">
             <div className="articles__container container">
                 <div className="articles__heading">
-                    <h2 className="articles__header">Подберу интересные статьи</h2>
-                    <Link className="articles__showall" to='/'>Вся лента</Link>
+                    <h2 className="articles__header">{t('articles.heading')}</h2>
+                    <Link className="articles__showall" to='/'>{t('articles.show_all')}</Link>
                 </div>
                 <div className="articles__body">
                     <ul className="articles__list">
                         <Article photo="src/assets/home/articles/News_01.png"
-                                 date="30 декабря 2020"
-                                 title="2020 на Госуслугах: новые пользователи, выплаты и вывозные рейсы"
-                                 desc="Чем были полезны Госуслуги: в цифрах и фактах"
+                                 date={t('articles.article_1.date')}
+                                 title={t('articles.article_1.title')}
+                                 desc={t('articles.article_1.desc')}
                         />
                         <Article photo="src/assets/home/articles/News_02.png"
-                                 date="01 декабря 2020"
-                                 title="Как оформить банкротство через МФЦ без суда и госпошлины"
-                                 desc="Условия внесудебной процедуры с 1 сентября 2020 года"
+                                 date={t('articles.article_2.date')}
+                                 title={t('articles.article_2.title')}
+                                 desc={t('articles.article_2.desc')}
                         />
                         <Article photo="src/assets/home/articles/News_03.png"
-                                 date="15 ноября 2020"
-                                 title="Новые электронные услуги для работающих и пенсионеров"
-                                 desc="Электронная трудовая книжка, справка о статусе предпенсионера и размере пенсии"
+                                 date={t('articles.article_3.date')}
+                                 title={t('articles.article_3.title')}
+                                 desc={t('articles.article_3.desc')}
                         />
                         <Article photo="src/assets/home/articles/News_04.png"
-                                 date="12 ноября 2020"
-                                 title="Как получать ежемесячные выплаты на первого и второго ребенка"
-                                 desc="До трёх лет"
+                                 date={t('articles.article_4.date')}
+                                 title={t('articles.article_4.title')}
+                                 desc={t('articles.article_4.desc')}
                         />
                     </ul>
                 </div>

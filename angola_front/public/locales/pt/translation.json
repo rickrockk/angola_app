@@ -1,0 +1,697 @@
+{
+  "header": {
+    "notifications": "Notificações",
+    "docs_recovery": "Documentos",
+    "appointment": "Consultas",
+    "payments": "Pagamentos",
+    "help": "Ajuda",
+    "profile": "Perfil",
+    "logout": "Sair",
+    "login": "Entrar"
+  },
+  "home": {
+    "popular_services": "Serviços Populares",
+    "health": "Saúde",
+    "documents": "Documentos",
+    "registration_passport": "Registro e Passaporte",
+    "land_house": "Terreno e Casa",
+    "other": "Outros",
+    "check_pay": "Verificar e Pagar",
+    "penalties": {
+      "title": "Multas",
+      "desc": "50% de desconto em multas de trânsito dentro de 20 dias"
+    },
+    "state_duties": {
+      "title": "Taxas Estaduais",
+      "desc": "30% de desconto em taxas através de serviços públicos"
+    },
+    "court_debts": {
+      "title": "Dívidas Judiciais",
+      "desc": "Procure processos de execução pelos seus dados"
+    },
+    "tax_debts": {
+      "title": "Dívidas Fiscais",
+      "desc": "Seu NIF é suficiente para verificar sua dívida"
+    },
+    "bills": {
+      "title": "Contas",
+      "desc": "Selecione um fornecedor e pague pelos serviços"
+    },
+    "invoice_number": {
+      "title": "Por Número de Fatura",
+      "desc": "Seu NIF é suficiente para verificar sua dívida"
+    }
+  },
+  "search": {
+    "title": "Portal de Serviços Públicos da República de Angola",
+    "placeholder": "Digite sua consulta...",
+    "bubble_1": "Consulta Médica",
+    "bubble_2": "Benefício Unificado",
+    "bubble_3": "Conta Pessoal do SFR",
+    "bubble_4": "Informação de Pagamentos Sociais",
+    "bubble_5": "Aposentadoria"
+  },
+  "articles": {
+    "heading": "Artigos Interessantes",
+    "show_all": "Todos os artigos",
+    "article_1": {
+      "date": "30 de Dezembro de 2020",
+      "title": "2020 nos Serviços Públicos: novos usuários, pagamentos e voos de evacuação",
+      "desc": "Como os Serviços Públicos foram úteis: em números e fatos"
+    },
+    "article_2": {
+      "date": "1 de Dezembro de 2020",
+      "title": "Como declarar falência através do MFC sem tribunal e taxa estadual",
+      "desc": "Condições para procedimentos extrajudiciais a partir de 1 de setembro de 2020"
+    },
+    "article_3": {
+      "date": "15 de Novembro de 2020",
+      "title": "Novos serviços eletrônicos para trabalhadores e aposentados",
+      "desc": "Livro de trabalho eletrônico, certificado de status de pré-aposentadoria e tamanho da pensão"
+    },
+    "article_4": {
+      "date": "12 de Novembro de 2020",
+      "title": "Como receber pagamentos mensais para o primeiro e segundo filho",
+      "desc": "Até três anos"
+    }
+  },
+  "notifications": {
+    "title": "Notificações",
+    "add_email": "Adicione seu e-mail para receber mensagens online primeiro",
+    "set_up": "Configurar",
+    "show": "Mostrar:",
+    "read_all": "Ler tudo",
+    "type_1": "Correio do Estado",
+    "notification_1": {
+      "date": "29 de Dezembro de 2020",
+      "heading": "Nova multa emitida para o veículo M777MM777",
+      "sender": "Ministério de Assuntos Internos da Rússia"
+    },
+    "notification_2": {
+      "date": "29 de Dezembro de 2020",
+      "heading": "Você recebeu documentos eletrônicos",
+      "sender": "Serviço Federal de Oficiais de Justiça da Rússia"
+    },
+    "notification_3": {
+      "date": "29 de Dezembro de 2020",
+      "heading": "Consulta com o médico",
+      "sender": "Hospital Clínico Universitário No. 1 do Centro Clínico da Primeira Universidade Estadual de Moscou Sechenov"
+    }
+  },
+  "docs_recovery": {
+    "back": "Voltar",
+    "title": "Recuperação de Documentos de Propriedade",
+    "type": "Documentos",
+    "update_date": "Teste com data de atualização",
+    "what_to_do": "O que fazer",
+    "step_1": {
+      "title": "1. Proíba quaisquer ações com os documentos",
+      "text_1": "Escreva uma declaração à polícia se achar que os documentos foram roubados. Não se esqueça de obter um comprovante de que a declaração foi aceita.",
+      "text_2": "Envie um pedido ao Rosreestr no local da propriedade - proíba qualquer operação com ela sem a sua participação ou a participação do seu representante legal.",
+      "text_3": "Isso pode ser feito:",
+      "list_1": "visitando pessoalmente o MFC com um passaporte",
+      "list_2": "online no site do Rosreestr - será necessária uma assinatura eletrônica qualificada",
+      "list_3": "por correio - preencha o formulário de solicitação, certifique a autenticidade da sua assinatura nele com um notário e envie para o escritório do Rosreestr no local da propriedade"
+    },
+    "step_2": {
+      "title": "2. Solicite uma cópia do documento de título",
+      "text_1": "Os direitos de propriedade são confirmados por:",
+      "list_1": "contrato de doação, compra, troca ou arrendamento",
+      "list_2": "certificado de herança",
+      "list_3": "atos judiciais",
+      "text_2": "As cópias dos documentos serão emitidas para:",
+      "list_4": "o proprietário da propriedade",
+      "list_5": "seu representante legal",
+      "list_6": "o herdeiro, se o proprietário tiver falecido",
+      "info_1": "Se a transação foi antes de 31 de janeiro de 1998",
+      "info_2": "Entre em contato com o BTI distrital ou com o cartório que emitiu o documento de título",
+      "info_3": "Se a transação foi após 31 de janeiro de 1998",
+      "info_4": "Solicite cópias dos documentos nos Serviços Públicos ou no escritório do Rosreestr",
+      "text_3": "Ao enviar pessoalmente ao registro, anexe ao pedido:",
+      "list_7": "passaporte",
+      "list_8": "cópias dos documentos perdidos, se disponíveis",
+      "list_9": "comprovante de pagamento da taxa estatal - verifique o valor no local onde você receberá as cópias dos documentos",
+      "text_4": "Se não for conhecido com base em que o direito de propriedade surgiu - solicite um extrato do conteúdo dos documentos de título nos Serviços Públicos ou no registro",
+      "text_5": "Pagamento para cidadãos:",
+      "list_10": "450 ₽ para um extrato eletrônico",
+      "list_11": "680 ₽ para um extrato em papel"
+    },
+    "step_3": {
+      "title": "3. Obtenha um extrato do USRN em vez do certificado de registro perdido",
+      "text_1": "O certificado de registro é um documento de confirmação de direito. Desde julho de 2016, ele não é emitido. Não há necessidade de restaurar o certificado de registro, em vez disso, o proprietário pode obter um extrato do Registro Estadual Unificado de Imóveis (USRN).",
+      "text_2": "O Rosreestr fornece diferentes tipos de extratos do USRN - verifique com antecedência no local onde você deseja fornecer o documento, qual extrato você precisa. Se você quiser obter o documento para si mesmo e não pretende fornecê-lo em lugar nenhum, consulte as informações nos Serviços Públicos e decida qual extrato é adequado para você. Você pode solicitá-lo online no portal."
+    },
+    "step_4": {
+      "title": "4. Entre em contato com o BTI para cópias dos passaportes cadastral e técnico",
+      "text_1": "Os passaportes cadastral e técnico, certificados emitidos pelo Escritório de Inventário Técnico (BTI), devem ser restaurados por último - esta é uma documentação técnica.",
+      "text_2": "Solicite duplicatas ao BTI onde o passaporte original foi emitido."
+    },
+    "step_5": {
+      "title": "5. Obtenha um extrato ou duplicatas dos documentos perdidos",
+      "text_1": "O prazo de preparação para duplicatas dos documentos perdidos será informado a você ao enviar o pedido. Você pode recebê-los onde os solicitou."
+    },
+    "avoid_problems": "Como evitar problemas com a recuperação de documentos",
+    "avoid_problems_text": "Faça cópias de todos os documentos importantes, notarize-os. Armazene os originais separadamente das cópias - por exemplo, em um cofre. Não informe a terceiros onde você guarda seus documentos.",
+    "other_materials": "Outros materiais sobre o tema",
+    "registration_child": "Registro de uma criança no local de residência",
+    "receive": "Receber"
+  },
+  "auth": {
+    "title": "Registro",
+    "description": "Registre-se online através do banco ou visitando centros de atendimento",
+    "online_bank": "Online através do banco pela internet",
+    "service_center": "Através do centro de atendimento",
+    "other_method": "Outro método de registro",
+    "already_registered": "Já está registrado?",
+    "login": "Entrar"
+  },
+  "registration": {
+    "header": "Registro",
+    "name_placeholder": "Nome Completo",
+    "email_placeholder": "Email",
+    "phone_placeholder": "Número de Telefone",
+    "password_placeholder": "Senha",
+    "confirm_password_placeholder": "Confirmar Senha",
+    "error_message_password": "As senhas devem coincidir",
+    "error_message_server": "Erro de conexão com o servidor",
+    "submit_button": "Registrar",
+    "login_prompt": "Já está registrado?",
+    "login_link": "Entrar"
+  },
+  "login": {
+    "header": "Entrar",
+    "email_placeholder": "Email",
+    "password_placeholder": "Senha",
+    "error_message": "Erro de login. Verifique seus dados.",
+    "submit_button": "Entrar",
+    "register_prompt": "Não tem uma conta?",
+    "register_link": "Registrar"
+  },
+  "profile": {
+    "header": "Perfil",
+    "account_section": "Conta",
+    "avatar_alt": "Avatar",
+    "confirmed_account": "Conta confirmada",
+    "phone_label": "Telefone:",
+    "edit": "Editar",
+    "email_label": "Email:",
+    "secure_account": "Como proteger sua conta no Gosuslugi",
+    "change_password": "Mudar senha",
+    "delete_account": "Excluir conta"
+  },
+  "passport": {
+    "title": "Dados do Passaporte",
+    "series_number": "Série e Número:",
+    "issued_date": "Data de Emissão:",
+    "issued_by": "Emitido por:",
+    "loading": "Carregando...",
+    "error": "Erro ao carregar dados do passaporte",
+    "not_found": "Dados do passaporte não encontrados"
+  },
+  "insurance": {
+    "title": "Seguro de Saúde",
+    "policy_number": "Número da Apólice:",
+    "insurer_name": "Nome da Seguradora:",
+    "expiry_date": "Data de Expiração:",
+    "loading": "Carregando...",
+    "error": "Erro ao carregar dados do seguro",
+    "not_found": "Dados do seguro não encontrados"
+  },
+  "passport_application": {
+    "step1": {
+      "back_button": "Voltar",
+      "header": "Obtenção do passaporte da República de Angola",
+      "desc": "Se você tem 20 ou 45 anos, sua aparência mudou significativamente, você mudou seu sobrenome ou encontrou um erro nos dados - este é um motivo para substituir seu passaporte. Envie os documentos através do Gosuslugi para evitar esperar em filas. Se não estiver pronto para enviar uma aplicação online, marque uma consulta na agência.",
+      "undertext": "Responda a algumas perguntas para que possamos mostrar os passos necessários para obter o serviço",
+      "start_button": "Começar"
+    },
+    "step2": {
+      "back_button": "Voltar",
+      "header": "Selecione um Serviço",
+      "get_passport": "Obter Passaporte",
+      "replace_passport": "Substituir Passaporte"
+    },
+    "step3": {
+      "back_button": "Voltar",
+      "header": "Por que você precisa trocar seu passaporte?",
+      "reasons": {
+        "age": "Alcançando a idade de 20 ou 45 anos",
+        "name_change": "Mudança de sobrenome, nome ou patronímico",
+        "unusable": "Inapto para uso",
+        "error": "Erro no passaporte",
+        "appearance_change": "Mudança de aparência"
+      }
+    },
+    "step4": {
+      "back_button": "Voltar",
+      "header": "Para enviar um pedido, você precisará",
+      "requirements": [
+        "Sua foto (como no passaporte)",
+        "Dados do certificado de casamento ou divórcio (se aplicável)",
+        "Certidão de nascimento",
+        "Dados do passaporte estrangeiro (se disponível)"
+      ],
+      "execution_time": {
+        "subheader": "Tempo de execução",
+        "text": "O processamento do passaporte levará até 10 dias corridos"
+      },
+      "cost": {
+        "subheader": "Custo",
+        "text1": "A taxa pode ser paga após a revisão do pedido pelo Ministério do Interior da República de Angola",
+        "text2": "210₽"
+      },
+      "what_next": {
+        "subheader": "O que vem a seguir",
+        "text": "Aguarde um convite para enviar os documentos originais"
+      },
+      "next_button": "Próximo"
+    },
+    "step5": {
+      "back_button": "Voltar",
+      "header": "Verifique seus dados",
+      "loading": "Carregando...",
+      "passport": {
+        "title": "Passaporte da República de Angola",
+        "series_number": "Série e número",
+        "issued_date": "Data de emissão",
+        "issued_by": "Emitido por",
+        "department_code": "Código do departamento",
+        "place_of_birth": "Local de nascimento"
+      },
+      "edit_button": "Editar",
+      "confirm_button": "Confirmar",
+      "error_message": "Erro ao carregar dados do passaporte"
+    },
+    "step6": {
+      "back_button": "Voltar",
+      "header": "Sua Foto",
+      "requirements": "Requisitos principais",
+      "color_photo": "Foto colorida ou em preto e branco",
+      "background": "Fundo simples, claro, sem objetos estranhos e sombras",
+      "drop_zone": "Arraste sua foto aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue uma foto antes de continuar."
+    },
+    "step7": {
+      "back_button": "Voltar",
+      "header": "Scan do Certificado de Casamento ou Divórcio",
+      "requirements": "Requisitos principais",
+      "color_photo": "Foto colorida ou em preto e branco",
+      "background": "Fundo simples, claro, sem objetos estranhos e sombras",
+      "drop_zone": "Arraste sua foto aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue um scan do certificado antes de continuar."
+    },
+    "step8": {
+      "back_button": "Voltar",
+      "header": "Scan do Certificado de Nascimento",
+      "requirements": "Requisitos principais",
+      "color_photo": "Foto colorida ou em preto e branco",
+      "background": "Fundo simples, claro, sem objetos estranhos e sombras",
+      "drop_zone": "Arraste sua foto aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue um scan do certificado antes de continuar."
+    },
+    "step9": {
+      "back_button": "Voltar",
+      "header": "Scan da Assinatura",
+      "requirements": "Requisitos principais",
+      "color_photo": "Foto colorida ou em preto e branco",
+      "background": "Fundo simples, claro, sem objetos estranhos e sombras",
+      "drop_zone": "Arraste sua foto aqui ou selecione no seu computador",
+      "submit_button": "Enviar Aplicação",
+      "alert_message": "Por favor, carregue um scan da assinatura antes de continuar."
+    },
+    "step10": {
+      "header": "Aplicação Enviada",
+      "details": {
+        "check_duration": "A revisão levará até 3 meses",
+        "email_notification": "Você receberá uma notificação por e-mail após a revisão"
+      },
+      "home_button": "Ir para a página inicial"
+    }
+  },
+  "appointment": {
+    "header": "Enviar uma Aplicação",
+    "links": {
+      "passport": "Obter/Substituir Passaporte",
+      "vaccination": "Agendamento de Vacinação",
+      "grant": "Obter uma Subvenção para Desenvolvimento da Agricultura Familiar",
+      "insurance": "Obter uma Apólice de Seguro",
+      "estate": "Extrato de Imóvel"
+    }
+  },
+  "insurance_application": {
+    "step1": {
+      "back_button": "Voltar",
+      "header": "Gestão de Apólice de Seguro de Saúde",
+      "info_list": {
+        "item1": "Obtenha uma apólice pela primeira vez",
+        "item2": "Mudar a região do seguro",
+        "item3": "Mudar a organização de seguro de saúde",
+        "item4": "Suspender ou retomar a apólice"
+      },
+      "subheader": "O que vem a seguir?",
+      "undertext": "Responda a algumas perguntas para que possamos mostrar as etapas necessárias para receber o serviço",
+      "start_button": "Iniciar"
+    },
+    "step2": {
+      "back_button": "Voltar",
+      "header": "Para quem precisa solicitar um seguro de saúde?",
+      "options": {
+        "self": "Para mim",
+        "child": "Para a criança"
+      }
+    },
+    "step3": {
+      "back_button": "Voltar",
+      "header": "Para enviar um pedido, você precisará",
+      "requirements": {
+        "passport": "Passaporte"
+      },
+      "execution_time": {
+        "subheader": "Prazo de execução",
+        "text": "O serviço será fornecido dentro de 1 dia útil"
+      },
+      "confirm_details": "Você precisará confirmar a correção dos dados pessoais no pedido, selecionar a região para assistência médica e a organização de seguro médico",
+      "result": {
+        "subheader": "Resultado",
+        "text": "Como resultado da revisão do pedido, você receberá uma apólice de seguro médico digital na sua conta pessoal ou uma recusa em fornecer o serviço com uma explicação do motivo da recusa"
+      },
+      "next_button": "Próximo"
+    },
+    "step4": {
+      "back_button": "Voltar",
+      "header": "Verifique seus dados",
+      "loading": "Carregando...",
+      "passport": {
+        "title": "Passaporte da República de Angola",
+        "series_number": "Série e número",
+        "issued_date": "Data de emissão",
+        "issued_by": "Emitido por",
+        "department_code": "Código do departamento",
+        "place_of_birth": "Local de nascimento"
+      },
+      "date_of_birth": "Data de nascimento",
+      "edit_button": "Editar",
+      "confirm_button": "Confirmar",
+      "error_message": "Erro ao carregar dados do passaporte"
+    },
+    "step5": {
+      "back_button": "Voltar",
+      "header": "Digitalização do Passaporte",
+      "requirements": "Requisitos principais",
+      "color_photo": "Foto colorida ou em preto e branco",
+      "background": "Fundo liso e claro, sem objetos estranhos e sombras",
+      "drop_zone": "Arraste sua foto aqui ou selecione-a no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue uma foto antes de prosseguir."
+    },
+    "step6": {
+      "back_button": "Voltar",
+      "header": "Selecione uma Companhia de Seguros",
+      "select_label": "Escolha uma companhia de seguros:",
+      "select_placeholder": "Companhia de Seguros",
+      "submit_button": "Enviar Solicitação",
+      "alert_message": "Por favor, selecione uma companhia de seguros antes de prosseguir."
+    },
+    "step7": {
+      "header": "Solicitação Enviada",
+      "what_next": "O que vem a seguir",
+      "details": {
+        "part1": "1. Você receberá uma notificação sobre a apólice - o número será salvo na sua conta pessoal.",
+        "part2": "2. Com o número da apólice e o passaporte, você poderá contatar as organizações médicas."
+      },
+      "home_button": "Ir para a página inicial"
+    }
+  },
+  "grants_application": {
+    "step1": {
+      "back_button": "Voltar",
+      "header": "Concurso \"Rosmolodezh.Grants: Microgrants\"",
+      "desc1": "Rosmolodezh anunciou o lançamento das inscrições para o Concurso \"Rosmolodezh.Grants: Microgrants\"",
+      "desc2": "O concurso é realizado há 3 anos e dá a um jovem de 14 a 35 anos a oportunidade de receber apoio estatal de até 100.000 ₽. No ano passado, 14 projetos da República do Bashkortostan venceram um total de 1.185.207 ₽",
+      "top_nominations": "As TOP-3 nomeações entre nossos participantes incluíram:",
+      "nominations": {
+        "save_nature": "#save_nature",
+        "farms": "#farmsfarmsfarms",
+        "create_opportunities": "#create_opportunities"
+      },
+      "desc3": "Os microgrants ajudam os jovens a implementar pequenos, mas importantes projetos sociais com um sistema de relatórios simplificado",
+      "desc4": "Para participar, é necessário enviar uma inscrição na sua conta pessoal no sistema FGAIS \"Juventude da Rússia\". As inscrições serão aceitas até as 23:59 MSK do dia 30 de junho. Existem 18 nomeações no concurso, você pode enviar apenas um projeto dentro de qualquer uma delas",
+      "contact_info": "Para participação e consulta, entre em contato com o Escritório de Projetos da Juventude do Comitê Estadual de Assuntos da Juventude da República do Bashkortostan",
+      "for_whom": "Para Quem",
+      "for_whom_desc": "Para jovens de 14 a 35 anos",
+      "benefit": "Benefícios do Programa",
+      "benefit_desc": "Oportunidade de mostrar seu talento e obter apoio estatal",
+      "organizer": "Organizador",
+      "organizer_info": "Rosmolodezh \n mporb@mail.ru \n +7 347 246-56-31",
+      "format": "Formato",
+      "format_desc": "Online",
+      "period": "Período",
+      "period_desc": "em 6 dias \n 14.06 - 30.06.24",
+      "time": "Horário",
+      "time_desc": "09:00 - 23:59",
+      "address": "Endereço",
+      "address_desc": "República do Bashkortostan, Ufa",
+      "submit_button": "Enviar Inscrição",
+      "other_materials": "Outros Materiais sobre o Tópico",
+      "registration": "Registro de uma criança no local de residência",
+      "documents": "Documentos",
+      "receiving": "Recebendo"
+    },
+    "step2": {
+      "back_button": "Voltar",
+      "header": "Verifique seus detalhes",
+      "loading": "Carregando...",
+      "passport": {
+        "title": "Passaporte da República de Angola",
+        "series_number": "Série e número",
+        "issued_date": "Data de emissão",
+        "issued_by": "Emitido por",
+        "department_code": "Código do departamento",
+        "place_of_birth": "Local de nascimento"
+      },
+      "date_of_birth": "Data de nascimento",
+      "edit_button": "Editar",
+      "confirm_button": "Confirmar",
+      "error_message": "Erro ao carregar os dados do passaporte"
+    },
+    "step3": {
+      "back_button": "Voltar",
+      "header": "Digite o NIF do chefe da fazenda",
+      "labels": {
+        "tin": "NIF",
+        "date_of_registration": "Data de registro",
+        "tax_authority": "Autoridade tributária",
+        "registration_address": "Endereço de registro"
+      },
+      "submit_button": "Continuar",
+      "aside_header": "Outros materiais sobre o assunto",
+      "aside_link": "Registro de uma criança no local de residência",
+      "aside_type1": "Documentos",
+      "aside_type2": "Recepção",
+      "error_message": "Erro ao salvar os dados do formulário",
+      "alert_message": "Ocorreu um erro ao salvar os dados do formulário. Por favor, tente novamente."
+    },
+    "step4": {
+      "back_button": "Voltar",
+      "header": "Para enviar uma aplicação, você precisará",
+      "requirements": {
+        "charter": "Estatuto da Fazenda",
+        "registration_certificate": "Certificado de Registro Estadual de uma Entidade Legal",
+        "lease_agreement": "Contrato de arrendamento de terra ou certificado de propriedade",
+        "brand_documents": "Documentos de uma marca registrada"
+      },
+      "drop_zone": "Arraste o arquivo aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue um arquivo antes de prosseguir."
+    },
+    "step5": {
+      "back_button": "Voltar",
+      "header": "É necessária a confirmação da experiência do chefe da fazenda",
+      "requirements": {
+        "letters_of_support": "Cartas de apoio das autoridades locais ou de outras organizações",
+        "presentation_materials": "Materiais de apresentação sobre o projeto",
+        "certificates": "Diplomas, certificados, certificados de conclusão de cursos de formação avançada"
+      },
+      "drop_zone": "Arraste o arquivo aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue o scan antes de prosseguir."
+    },
+    "step6": {
+      "back_button": "Voltar",
+      "header": "Relatórios financeiros da fazenda são necessários",
+      "requirements": {
+        "business_plan": "Plano de negócios detalhado com cálculos, descrição do projeto, objetivos e resultados esperados",
+        "financial_report": "Demonstração de resultados (lucros e perdas) para o último período de reporte",
+        "capital_documents": "Documentos comprovando o tamanho e a disponibilidade do capital autorizado da fazenda",
+        "co_financing": "Documentos comprovando a disponibilidade ou o envolvimento planejado de co-financiamento",
+        "credit_agreements": "Acordos de crédito, subsídios, investimentos e outros documentos que comprovem a atração de fundos adicionais",
+        "tax_debts": "Certificado de ausência de dívidas fiscais",
+        "off_budget": "Certificado de ausência de dívidas em contribuições para fundos extrabudgetários"
+      },
+      "drop_zone": "Arraste o arquivo aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue o scan antes de prosseguir."
+    },
+    "step7": {
+      "back_button": "Voltar",
+      "header": "A presença de base material e técnica é necessária",
+      "requirements": {
+        "inventory_act": "Atestado de inventário de ativos fixos",
+        "supply_contracts": "Contratos de fornecimento de equipamentos e materiais",
+        "eco_certificates": "Certificados ambientais e sanitários",
+        "co_financing": "Documentos comprovando a disponibilidade ou o envolvimento planejado de co-financiamento",
+        "credit_agreements": "Acordos de crédito, subsídios, investimentos e outros documentos que comprovem a atração de fundos adicionais",
+        "qualifications": "Documentos comprovando as qualificações e experiência do chefe da fazenda"
+      },
+      "drop_zone": "Arraste o arquivo aqui ou selecione no seu computador",
+      "next_button": "Próximo",
+      "alert_message": "Por favor, carregue o scan antes de prosseguir."
+    }
+  },
+  "real_estate_application": {
+    "step1": {
+      "back_button": "Voltar",
+      "header": "Prestação de informações do USRN",
+      "service_helps": "O serviço ajuda a:",
+      "get_egrn_extract": "Obter um extrato eletrônico ou uma cópia de um documento do USRN",
+      "view_basic_info_online": "Ver informações básicas sobre imóveis online",
+      "data_order_change": "Mudança de ordem de dados",
+      "personal_data_access": "Desde 1º de março de 2023, os dados pessoais dos titulares dos direitos estão disponíveis apenas para eles\nLei nº 266 de 14.07.2022",
+      "start_button": "Iniciar"
+    },
+    "step2": {
+      "back_button": "Voltar",
+      "header": "Especifique a finalidade da solicitação",
+      "types_of_information": "Tipos de informações do USRN",
+      "get_online_extract": "Obter um extrato online",
+      "free_without_plans": "Grátis, sem planos e esquemas",
+      "view_online_info": "Ver informações de imóveis online",
+      "free": "Grátis",
+      "get_usrn_extract": "Obter um extrato do USRN",
+      "with_plans_and_schemes": "Com planos e esquemas",
+      "get_cadastral_plan": "Obter um plano cadastral",
+      "get_document_copy": "Obter uma cópia do documento",
+      "find_interested_parties": "Descobrir quem estava interessado na propriedade"
+    },
+    "step3": {
+      "back_button": "Voltar",
+      "header": "Especifique o tipo de extrato",
+      "characteristics_and_rights": "Sobre características e direitos sobre o imóvel",
+      "about_real_estate": "Sobre o objeto imobiliário",
+      "transition_of_rights": "Sobre a transferência de direitos sobre o imóvel"
+    },
+    "step4": {
+      "back_button": "Voltar",
+      "header": "Extrato sobre as principais características e direitos sobre o imóvel",
+      "full_name": "Nome Completo",
+      "description": "Extrato do USRN sobre as principais características e direitos registrados no objeto imobiliário",
+      "contains": "Contém",
+      "items": {
+        "item1": "Descrição do objeto imobiliário - número cadastral, tipo, nome, área, andar, comprimento, uso permitido, finalidade, ano de comissionamento",
+        "item2": "Valor cadastral",
+        "item3": "Informações sobre o proprietário",
+        "item4": "Tipo, data e número de registro estadual do direito e suas restrições",
+        "item5": "Informações sobre os direitos reivindicados em tribunal",
+        "item6": "Informações sobre a impossibilidade de registro estadual sem a participação pessoal do proprietário ou de seu representante",
+        "item7": "Informações sobre o proprietário",
+        "item8": "Informações sobre a impossibilidade de registro estadual de transferência, término, restrição do direito a terras agrícolas"
+      },
+      "cost": "Custo",
+      "price": "210₽",
+      "continue_button": "Continuar"
+    },
+    "step5": {
+      "back_button": "Voltar",
+      "header": "Informações necessárias para a solicitação",
+      "items": {
+        "item1": "Dados do passaporte",
+        "item2": "Tipo de imóvel",
+        "item3": "Dados do imóvel: número (cadastral ou condicional) ou endereço e área exata do objeto"
+      },
+      "time_header": "Tempo de fornecimento do serviço",
+      "time_text": "De alguns minutos a 3 dias úteis",
+      "cost_header": "Custo",
+      "cost_text": "210₽",
+      "result_header": "Resultado",
+      "result_text": "Um extrato do USRN com uma assinatura eletrônica será enviado para sua conta pessoal",
+      "continue_button": "Prosseguir para o preenchimento"
+    },
+    "step6": {
+      "back_button": "Voltar",
+      "header": "Verifique seus dados",
+      "loading": "Carregando...",
+      "error_message": "Dados do passaporte não encontrados",
+      "birth_date": "Data de nascimento",
+      "passport_title": "Passaporte da República de Angola",
+      "series_number": "Série e número",
+      "issued_date": "Data de emissão",
+      "issued_by": "Emitido por",
+      "department_code": "Código do departamento",
+      "place_of_birth": "Local de nascimento",
+      "edit_button": "Editar",
+      "submit_button": "Enviar Solicitação"
+    },
+    "step7": {
+      "header": "Solicitação Enviada",
+      "subheader": "O que vem a seguir",
+      "details": "1. Você receberá uma notificação sobre o recebimento da declaração em seu e-mail",
+      "home_button": "Ir para a página inicial"
+    }
+  },
+  "vaccination_appointment": {
+    "step1": {
+      "back_button": "Voltar",
+      "header": "Agendamento de Vacinação",
+      "desc1": "Selecione qualquer ponto de vacinação na região de vínculo com a clínica e data. As informações sobre o agendamento estarão na sua conta pessoal.",
+      "desc2": "A vacina consiste em dois componentes, que são administrados separadamente, exceto pela vacina Sputnik Light, que tem uma composição de um único componente. A vacina Sputnik Light é usada para vacinar pacientes que se recuperaram da nova infecção por coronavírus COVID-19, após 6 meses ou anteriormente vacinados (mais de 6 meses atrás) com qualquer vacina para a prevenção de COVID-19.",
+      "vaccine_contraindications": "A vacinação é contraindicada:",
+      "contraindication1": "em doenças infecciosas e não infecciosas agudas",
+      "contraindication2": "durante a exacerbação de doenças crônicas",
+      "contraindication3": "em casos de reações alérgicas graves anteriormente encontradas",
+      "desc3": "menores de 18 anos - apenas na organização médica à qual você está vinculado",
+      "desc4": "maiores de 18 anos - em qualquer organização médica disponível na região de vínculo",
+      "desc5": "Antes da vacinação, o médico realizará um exame e determinará se você pode ser vacinado.",
+      "desc6": "Após a etapa final da vacinação, você receberá um certificado eletrônico. Estará disponível no portal e no aplicativo Gosuslugi.",
+      "start_button": "Começar",
+      "aside_header": "Outros materiais sobre o assunto",
+      "aside_link": "Registro de uma criança no local de residência",
+      "aside_type1": "Documentos",
+      "aside_type2": "Recepção"
+    },
+    "step2": {
+      "back_button": "Voltar",
+      "header": "Verifique a exatidão dos seus dados",
+      "policy_number": "Número da apólice",
+      "expiry_date": "Data de validade",
+      "insurer_id": "ID da seguradora",
+      "insurer_name": "Nome da seguradora",
+      "issued_by": "Emitido por",
+      "edit_button": "Editar",
+      "confirm_button": "Correto",
+      "error_message": "Dados do seguro não encontrados",
+      "loading": "Carregando..."
+    },
+    "step3": {
+      "back_button": "Voltar",
+      "header": "Que tipo de vacinação você precisa?",
+      "covid": "COVID-19",
+      "flu": "Gripe",
+      "hep_b": "Hepatite B"
+    },
+    "step4": {
+      "back_button": "Voltar",
+      "header": "Insira o Ponto de Vacinação",
+      "label": "Ponto de Vacinação",
+      "submit_button": "Continuar"
+    },
+    "step5": {
+      "header": "Insira a Data da Visita",
+      "label": "Data da Visita",
+      "submit_button": "Continuar",
+      "back_button": "Voltar"
+    }
+  }
+}

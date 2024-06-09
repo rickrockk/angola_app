@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Step4.scss';
 
-const Step4 = ({ prevStep, nextStep}) => {
+const Step4 = ({ prevStep, nextStep }) => {
+    const { t } = useTranslation();
+
     const handleForward = () => {
-        nextStep()
-    }
+        nextStep();
+    };
 
     const handleBack = () => {
         prevStep(3);
@@ -17,31 +20,28 @@ const Step4 = ({ prevStep, nextStep}) => {
                     <svg className="btn-arrow" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#CC2229"/>
                     </svg>
-                    Назад
+                    {t('real_estate_application.step4.back_button')}
                 </button>
-                <h2 className="form__header">Выписка об основных характеристиках и правах на недвижимость</h2>
+                <h2 className="form__header">{t('real_estate_application.step4.header')}</h2>
                 <div className="form__info">
-                    <h3 className="form__subheader">Полное наименование</h3>
-                    <p className="form-text">Выписка из ЕГРН об основных характеристиках и зарегистрированных правах на объект недвижимости</p>
-                    <h3 className="form__subheader">Что содержит</h3>
+                    <h3 className="form__subheader">{t('real_estate_application.step4.full_name')}</h3>
+                    <p className="form-text">{t('real_estate_application.step4.description')}</p>
+                    <h3 className="form__subheader">{t('real_estate_application.step4.contains')}</h3>
                     <ul className="info__list">
-                        <li className="info__item">Описание объекта недвижимости - кадастровый номер, вид. наименование, площадь, этаж,
-                            протяжённость, разрешённое использование, назначение, год ввода в эксплуатацию</li>
-                        <li className="info__item">Кадастровую стоимость</li>
-                        <li className="info__item">Сведения о правообладателе</li>
-                        <li className="info__item">Вид, дату и номер государственной регистрации права и его ограничений</li>
-                        <li className="info__item">Сведения о заявленных в судебном порядке правах требования</li>
-                        <li className="info__item">Сведения о невозможности государственной регистрации без личного участия правообладателя
-                            или его представителя</li>
-                        <li className="info__item">Сведения о правообладателе</li>
-                        <li className="info__item">Сведения о невозможности государственной регистрации перехода, прекращения, ограничения
-                            права на земельный участок из земель сельхозназначения</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item1')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item2')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item3')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item4')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item5')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item6')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item7')}</li>
+                        <li className="info__item">{t('real_estate_application.step4.items.item8')}</li>
                     </ul>
                     <div className="form__cost">
-                        <h3 className="form-subheader">Стоимость</h3>
-                        <p className="form-text">210₽</p>
+                        <h3 className="form-subheader">{t('real_estate_application.step4.cost')}</h3>
+                        <p className="form-text">{t('real_estate_application.step4.price')}</p>
                     </div>
-                    <button className="submit-button" onClick={handleForward}>Продолжить</button>
+                    <button className="submit-button" onClick={handleForward}>{t('real_estate_application.step4.continue_button')}</button>
                 </div>
             </div>
         </div>

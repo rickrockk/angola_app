@@ -28,6 +28,15 @@
   text-align: center;
 }
 
+.back__button {
+  background-color: transparent !important;
+  margin-left: 0 !important;
+}
+
+.back__button-arrow {
+  margin-right: .5rem;
+}
+
 .confirm-button {
   background-color: #28a745;
 }

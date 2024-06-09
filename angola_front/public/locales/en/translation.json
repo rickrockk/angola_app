@@ -1,0 +1,697 @@
+{
+  "header": {
+    "notifications": "Notifications",
+    "docs_recovery": "Documents",
+    "appointment": "Appointments",
+    "payments": "Payments",
+    "help": "Help",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "home": {
+    "popular_services": "Popular Services",
+    "health": "Health",
+    "documents": "Documents",
+    "registration_passport": "Registration & Passport",
+    "land_house": "Land & House",
+    "other": "Other",
+    "check_pay": "Check and Pay",
+    "penalties": {
+      "title": "Penalties",
+      "desc": "50% discount on traffic fines within 20 days"
+    },
+    "state_duties": {
+      "title": "State Duties",
+      "desc": "30% discount on duties through public services"
+    },
+    "court_debts": {
+      "title": "Court Debts",
+      "desc": "Search for enforcement proceedings by your data"
+    },
+    "tax_debts": {
+      "title": "Tax Debts",
+      "desc": "Your TIN is enough to check your debt"
+    },
+    "bills": {
+      "title": "Bills",
+      "desc": "Select a provider and pay for services"
+    },
+    "invoice_number": {
+      "title": "By Invoice Number",
+      "desc": "Your TIN is enough to check your debt"
+    }
+  },
+  "search": {
+    "title": "State Services Portal of the Republic of Angola",
+    "placeholder": "Enter your query...",
+    "bubble_1": "Doctor Appointment",
+    "bubble_2": "Unified Allowance",
+    "bubble_3": "Personal SFR Account",
+    "bubble_4": "Social Payments Information",
+    "bubble_5": "Retirement"
+  },
+  "articles": {
+    "heading": "Interesting Articles",
+    "show_all": "All articles",
+    "article_1": {
+      "date": "December 30, 2020",
+      "title": "2020 on State Services: new users, payments and evacuation flights",
+      "desc": "How State Services were useful: in numbers and facts"
+    },
+    "article_2": {
+      "date": "December 1, 2020",
+      "title": "How to declare bankruptcy through MFC without court and state duty",
+      "desc": "Conditions for out-of-court procedures from September 1, 2020"
+    },
+    "article_3": {
+      "date": "November 15, 2020",
+      "title": "New electronic services for employees and pensioners",
+      "desc": "Electronic work book, pre-retirement status certificate and pension size"
+    },
+    "article_4": {
+      "date": "November 12, 2020",
+      "title": "How to receive monthly payments for the first and second child",
+      "desc": "Up to three years"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "add_email": "Add your email to receive messages online first",
+    "set_up": "Set up",
+    "show": "Show:",
+    "read_all": "Read all",
+    "type_1": "State Mail",
+    "notification_1": {
+      "date": "December 29, 2020",
+      "heading": "New fine issued for vehicle M777MM777",
+      "sender": "Ministry of Internal Affairs of Russia"
+    },
+    "notification_2": {
+      "date": "December 29, 2020",
+      "heading": "You have received electronic documents",
+      "sender": "Federal Bailiff Service of Russia"
+    },
+    "notification_3": {
+      "date": "December 29, 2020",
+      "heading": "Appointment with the doctor",
+      "sender": "University Clinical Hospital No. 1 of the Clinical Center of Sechenov First Moscow State Medical University"
+    }
+  },
+  "docs_recovery": {
+    "back": "Back",
+    "title": "Recovery of Property Documents",
+    "type": "Documents",
+    "update_date": "Test with update date",
+    "what_to_do": "What to do",
+    "step_1": {
+      "title": "1. Prohibit any actions with the documents",
+      "text_1": "Write a statement to the police if you think the documents were stolen. Don't forget to get a notification slip that the statement was accepted.",
+      "text_2": "Submit a request to Rosreestr at the location of the property - prohibit any operations with it without your participation or the participation of your legal representative.",
+      "text_3": "This can be done:",
+      "list_1": "by personally visiting the MFC with a passport",
+      "list_2": "online on the Rosreestr website - a qualified electronic signature will be required",
+      "list_3": "by mail - fill out the application form, certify the authenticity of your signature on it with a notary and send it to the Rosreestr office at the location of the property"
+    },
+    "step_2": {
+      "title": "2. Apply for a copy of the title document",
+      "text_1": "Property rights are confirmed by:",
+      "list_1": "gift, sale, exchange, or lease agreement",
+      "list_2": "certificate of inheritance",
+      "list_3": "court acts",
+      "text_2": "Copies of documents will be issued to:",
+      "list_4": "the property owner",
+      "list_5": "his legal representative",
+      "list_6": "the heir if the owner has died",
+      "info_1": "If the transaction was before January 31, 1998",
+      "info_2": "Contact the district BTI or the notary office that issued the title document",
+      "info_3": "If the transaction was after January 31, 1998",
+      "info_4": "Order copies of documents on State Services or at the Rosreestr office",
+      "text_3": "When submitting in person to the registry, attach the following to the application:",
+      "list_7": "passport",
+      "list_8": "copies of lost documents, if available",
+      "list_9": "receipt of state duty payment - check the amount at the place where you will receive copies of the documents",
+      "text_4": "If it is not known on what basis the ownership arose - order an extract of the contents of the title documents on State Services or in the registry",
+      "text_5": "Payment for citizens:",
+      "list_10": "450 ₽ for an electronic extract",
+      "list_11": "680 ₽ for a paper extract"
+    },
+    "step_3": {
+      "title": "3. Obtain an extract from the USRN instead of the lost registration certificate",
+      "text_1": "The registration certificate is a right-confirming document. Since July 2016, it has not been issued. There is no need to restore the registration certificate, instead, the owner can obtain an extract from the Unified State Register of Real Estate (USRN).",
+      "text_2": "Rosreestr provides different types of extracts from the USRN - check in advance at the place where you want to provide the document, which extract you need. If you want to get the document for yourself and do not intend to provide it anywhere, check the information on State Services and decide which extract is right for you. You can order it online on the portal."
+    },
+    "step_4": {
+      "title": "4. Contact BTI for copies of cadastral and technical passports",
+      "text_1": "Cadastral and technical passports, certificates issued by the Bureau of Technical Inventory (BTI), should be restored last - this is technical documentation.",
+      "text_2": "Request duplicates from the BTI where the primary passport was issued."
+    },
+    "step_5": {
+      "title": "5. Get an extract or duplicates of lost documents",
+      "text_1": "The preparation time for duplicates of lost documents will be informed to you when submitting the application. You can receive them where you ordered."
+    },
+    "avoid_problems": "How to avoid problems with document recovery",
+    "avoid_problems_text": "Make copies of all important documents, notarize them. Store the originals separately from the copies - for example, in a safe deposit box. Do not tell outsiders where you store your documents.",
+    "other_materials": "Other materials on the topic",
+    "registration_child": "Registering a child at the place of residence",
+    "receive": "Receive"
+  },
+  "auth": {
+    "title": "Registration",
+    "description": "Register online through the bank or by visiting service centers",
+    "online_bank": "Online through internet banking",
+    "service_center": "Through the service center",
+    "other_method": "Other registration method",
+    "already_registered": "Already registered?",
+    "login": "Login"
+  },
+  "registration": {
+    "header": "Registration",
+    "name_placeholder": "Full Name",
+    "email_placeholder": "Email",
+    "phone_placeholder": "Phone Number",
+    "password_placeholder": "Password",
+    "confirm_password_placeholder": "Confirm Password",
+    "error_message_password": "Passwords must match",
+    "error_message_server": "Server connection error",
+    "submit_button": "Register",
+    "login_prompt": "Already registered?",
+    "login_link": "Login"
+  },
+  "login": {
+    "header": "Login",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "error_message": "Login error. Check your details.",
+    "submit_button": "Login",
+    "register_prompt": "Don't have an account?",
+    "register_link": "Register"
+  },
+  "profile": {
+    "header": "Profile",
+    "account_section": "Account",
+    "avatar_alt": "Avatar",
+    "confirmed_account": "Confirmed account",
+    "phone_label": "Phone:",
+    "edit": "Edit",
+    "email_label": "Email:",
+    "secure_account": "How to secure your account on Gosuslugi",
+    "change_password": "Change password",
+    "delete_account": "Delete account"
+  },
+  "passport": {
+    "title": "Passport Data",
+    "series_number": "Series and Number:",
+    "issued_date": "Issued Date:",
+    "issued_by": "Issued By:",
+    "loading": "Loading...",
+    "error": "Error loading passport data",
+    "not_found": "Passport data not found"
+  },
+  "insurance": {
+    "title": "Medical Insurance",
+    "policy_number": "Policy Number:",
+    "insurer_name": "Insurer Name:",
+    "expiry_date": "Expiry Date:",
+    "loading": "Loading...",
+    "error": "Error loading insurance data",
+    "not_found": "Insurance data not found"
+  },
+  "passport_application": {
+    "step1": {
+      "back_button": "Back",
+      "header": "Obtaining the passport of the Republic of Angola",
+      "desc": "If you are 20 or 45 years old, your appearance has significantly changed, you have changed your last name, or found an error in the data - this is a reason to replace your passport. Submit documents through Gosuslugi to avoid waiting in lines. If you are not ready to submit an application online, make an appointment at the agency.",
+      "undertext": "Answer a few questions so we can show you the necessary steps to obtain the service",
+      "start_button": "Start"
+    },
+    "step2": {
+      "back_button": "Back",
+      "header": "Select a Service",
+      "get_passport": "Get a Passport",
+      "replace_passport": "Replace a Passport"
+    },
+    "step3": {
+      "back_button": "Back",
+      "header": "Why do you need to change your passport?",
+      "reasons": {
+        "age": "Reaching the age of 20 or 45",
+        "name_change": "Change of surname, name, or patronymic",
+        "unusable": "Unfit for use",
+        "error": "Error in passport",
+        "appearance_change": "Change in appearance"
+      }
+    },
+    "step4": {
+      "back_button": "Back",
+      "header": "To submit an application you will need",
+      "requirements": [
+        "Your photo (as on the passport)",
+        "Marriage or divorce certificate data (if applicable)",
+        "Birth certificate",
+        "Foreign passport data (if available)"
+      ],
+      "execution_time": {
+        "subheader": "Execution time",
+        "text": "Passport processing will take up to 10 calendar days"
+      },
+      "cost": {
+        "subheader": "Cost",
+        "text1": "The fee can be paid after the application is reviewed by the Ministry of Internal Affairs of the Republic of Angola",
+        "text2": "210₽"
+      },
+      "what_next": {
+        "subheader": "What's next",
+        "text": "Wait for an invitation to submit the original documents"
+      },
+      "next_button": "Next"
+    },
+    "step5": {
+      "back_button": "Back",
+      "header": "Check your details",
+      "loading": "Loading...",
+      "passport": {
+        "title": "Passport of the Republic of Angola",
+        "series_number": "Series and number",
+        "issued_date": "Issued date",
+        "issued_by": "Issued by",
+        "department_code": "Department code",
+        "place_of_birth": "Place of birth"
+      },
+      "edit_button": "Edit",
+      "confirm_button": "Confirm",
+      "error_message": "Error loading passport data"
+    },
+    "step6": {
+      "back_button": "Back",
+      "header": "Your Photo",
+      "requirements": "Main requirements",
+      "color_photo": "Color or black and white photo",
+      "background": "Plain, light background, without foreign objects and shadows",
+      "drop_zone": "Drag your photo here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload a photo before proceeding."
+    },
+    "step7": {
+      "back_button": "Back",
+      "header": "Scan of Marriage or Divorce Certificate",
+      "requirements": "Main requirements",
+      "color_photo": "Color or black and white photo",
+      "background": "Plain, light background, without foreign objects and shadows",
+      "drop_zone": "Drag your photo here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload a scan of the certificate before proceeding."
+    },
+    "step8": {
+      "back_button": "Back",
+      "header": "Scan of Birth Certificate",
+      "requirements": "Main requirements",
+      "color_photo": "Color or black and white photo",
+      "background": "Plain, light background, without foreign objects and shadows",
+      "drop_zone": "Drag your photo here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload a scan of the certificate before proceeding."
+    },
+    "step9": {
+      "back_button": "Back",
+      "header": "Scan of Signature",
+      "requirements": "Main requirements",
+      "color_photo": "Color or black and white photo",
+      "background": "Plain, light background, without foreign objects and shadows",
+      "drop_zone": "Drag your photo here or select it on your computer",
+      "submit_button": "Submit Application",
+      "alert_message": "Please upload a scan of the signature before proceeding."
+    },
+    "step10": {
+      "header": "Application Submitted",
+      "details": {
+        "check_duration": "The review will take up to 3 months",
+        "email_notification": "You will receive a notification by email after the review"
+      },
+      "home_button": "Go to Homepage"
+    }
+  },
+  "appointment": {
+    "header": "Submit an Application",
+    "links": {
+      "passport": "Obtain/Replace Passport",
+      "vaccination": "Vaccination Appointment",
+      "grant": "Get a Grant for Family Farming Development",
+      "insurance": "Get an Insurance Policy",
+      "estate": "Real Estate Extract"
+    }
+  },
+  "insurance_application": {
+    "step1": {
+      "back_button": "Back",
+      "header": "Health Insurance Policy Management",
+      "info_list": {
+        "item1": "Get a policy for the first time",
+        "item2": "Change insurance region",
+        "item3": "Change health insurance organization",
+        "item4": "Suspend or resume the policy"
+      },
+      "subheader": "What's next?",
+      "undertext": "Answer a few questions so that we can show you the necessary steps to receive the service",
+      "start_button": "Start"
+    },
+    "step2": {
+      "back_button": "Back",
+      "header": "Who needs to apply for a health insurance policy?",
+      "options": {
+        "self": "Self",
+        "child": "Child"
+      }
+    },
+    "step3": {
+      "back_button": "Back",
+      "header": "To submit an application you will need",
+      "requirements": {
+        "passport": "Passport"
+      },
+      "execution_time": {
+        "subheader": "Execution time",
+        "text": "The service will be provided within 1 business day"
+      },
+      "confirm_details": "You will need to confirm the correctness of personal data in the application, select the region for medical assistance and the medical insurance organization",
+      "result": {
+        "subheader": "Result",
+        "text": "As a result of the application review, you will receive a digital medical insurance policy in your personal account or a refusal to provide the service with an explanation of the reason for the refusal"
+      },
+      "next_button": "Next"
+    },
+    "step4": {
+      "back_button": "Back",
+      "header": "Check your details",
+      "loading": "Loading...",
+      "passport": {
+        "title": "Passport of the Republic of Angola",
+        "series_number": "Series and number",
+        "issued_date": "Issued date",
+        "issued_by": "Issued by",
+        "department_code": "Department code",
+        "place_of_birth": "Place of birth"
+      },
+      "date_of_birth": "Date of birth",
+      "edit_button": "Edit",
+      "confirm_button": "Confirm",
+      "error_message": "Error loading passport data"
+    },
+    "step5": {
+      "back_button": "Back",
+      "header": "Passport Scan",
+      "requirements": "Main requirements",
+      "color_photo": "Color or black and white photo",
+      "background": "Plain, light background, without foreign objects and shadows",
+      "drop_zone": "Drag your photo here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload a photo before proceeding."
+    },
+    "step6": {
+      "back_button": "Back",
+      "header": "Select an Insurance Company",
+      "select_label": "Choose an insurance company:",
+      "select_placeholder": "Insurance Company",
+      "submit_button": "Submit Application",
+      "alert_message": "Please select an insurance company before proceeding."
+    },
+    "step7": {
+      "header": "Application Submitted",
+      "what_next": "What's Next",
+      "details": {
+        "part1": "1. You will receive a notification about the policy - its number will be saved in your personal account.",
+        "part2": "2. With the policy number and passport, you can contact medical organizations."
+      },
+      "home_button": "Go to Homepage"
+    }
+  },
+  "grants_application": {
+    "step1": {
+      "back_button": "Back",
+      "header": "Contest \"Rosmolodezh.Grants: Microgrants\"",
+      "desc1": "Rosmolodezh announced the launch of applications for the Contest \"Rosmolodezh.Grants: Microgrants\"",
+      "desc2": "The contest has been held for 3 years and gives a young person aged 14 to 35 the opportunity to receive state support up to 100,000 ₽. Last year, 14 projects from the Republic of Bashkortostan won a total of 1,185,207 ₽",
+      "top_nominations": "The TOP-3 nominations among our participants included:",
+      "nominations": {
+        "save_nature": "#save_nature",
+        "farms": "#farmsfarmsfarms",
+        "create_opportunities": "#create_opportunities"
+      },
+      "desc3": "Microgrants help young people implement small but important social projects with a simplified reporting system",
+      "desc4": "To participate, you need to submit an application in your personal account in the FGAIS \"Youth of Russia\" system. Applications will be accepted until 23:59 MSK on June 30. There are 18 nominations in the competition, you can submit only one project within any of them",
+      "contact_info": "For participation and consultation, contact the Youth Project Office of the State Committee on Youth Affairs of the Republic of Bashkortostan",
+      "for_whom": "For Whom",
+      "for_whom_desc": "For young people aged 14 to 35",
+      "benefit": "Program Benefits",
+      "benefit_desc": "Opportunity to showcase your talent and get state support",
+      "organizer": "Organizer",
+      "organizer_info": "Rosmolodezh \n mporb@mail.ru \n +7 347 246-56-31",
+      "format": "Format",
+      "format_desc": "Online",
+      "period": "Period",
+      "period_desc": "in 6 days \n 14.06 - 30.06.24",
+      "time": "Time",
+      "time_desc": "09:00 - 23:59",
+      "address": "Address",
+      "address_desc": "Republic of Bashkortostan, Ufa",
+      "submit_button": "Submit Application",
+      "other_materials": "Other Materials on the Topic",
+      "registration": "Registration of a child at the place of residence",
+      "documents": "Documents",
+      "receiving": "Receiving"
+    },
+    "step2": {
+      "back_button": "Back",
+      "header": "Check Your Details",
+      "loading": "Loading...",
+      "passport": {
+        "title": "Passport of the Republic of Angola",
+        "series_number": "Series and number",
+        "issued_date": "Issued date",
+        "issued_by": "Issued by",
+        "department_code": "Department code",
+        "place_of_birth": "Place of birth"
+      },
+      "date_of_birth": "Date of birth",
+      "edit_button": "Edit",
+      "confirm_button": "Confirm",
+      "error_message": "Error loading passport data"
+    },
+    "step3": {
+      "back_button": "Back",
+      "header": "Enter the TIN of the head of the farm",
+      "labels": {
+        "tin": "TIN",
+        "date_of_registration": "Date of registration",
+        "tax_authority": "Tax authority",
+        "registration_address": "Registration address"
+      },
+      "submit_button": "Continue",
+      "aside_header": "Other materials on the topic",
+      "aside_link": "Registering a child at the place of residence",
+      "aside_type1": "Documents",
+      "aside_type2": "Receiving",
+      "error_message": "Error saving form data",
+      "alert_message": "An error occurred while saving the form data. Please try again."
+    },
+    "step4": {
+      "back_button": "Back",
+      "header": "To submit an application you will need",
+      "requirements": {
+        "charter": "Farm Charter",
+        "registration_certificate": "Certificate of State Registration of a Legal Entity",
+        "lease_agreement": "Land lease agreement or certificate of ownership",
+        "brand_documents": "Documents of a registered brand or trademark"
+      },
+      "drop_zone": "Drag the file here or select on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload a file before proceeding."
+    },
+    "step5": {
+      "back_button": "Back",
+      "header": "Confirmation of the experience of the head of the farm is required",
+      "requirements": {
+        "letters_of_support": "Letters of support from local authorities or other organizations",
+        "presentation_materials": "Presentation materials about the project",
+        "certificates": "Diplomas, certificates, certificates of completion of advanced training courses"
+      },
+      "drop_zone": "Drag the file here or select on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload the scan before proceeding."
+    },
+    "step6": {
+      "back_button": "Back",
+      "header": "Financial statements of the farm are required",
+      "requirements": {
+        "business_plan": "Detailed business plan with calculations, project description, goals and expected results",
+        "financial_report": "Profit and loss statement for the last reporting period",
+        "capital_documents": "Documents confirming the size and availability of the farm's authorized capital",
+        "co_financing": "Documents confirming the availability or planned involvement of co-financing",
+        "credit_agreements": "Credit, subsidy, investment agreements and other documents confirming the attraction of additional funds",
+        "tax_debts": "Certificate of no tax and fee arrears",
+        "off_budget": "Certificate of no arrears in contributions to off-budget funds"
+      },
+      "drop_zone": "Drag the file here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload the scan before proceeding."
+    },
+    "step7": {
+      "back_button": "Back",
+      "header": "The presence of material and technical base is required",
+      "requirements": {
+        "inventory_act": "Inventory act of fixed assets",
+        "supply_contracts": "Supply contracts for equipment and materials",
+        "eco_certificates": "Environmental and sanitary certificates",
+        "co_financing": "Documents confirming the availability or planned involvement of co-financing",
+        "credit_agreements": "Credit, subsidy, investment agreements and other documents confirming the attraction of additional funds",
+        "qualifications": "Documents confirming the qualifications and experience of the head of the farm"
+      },
+      "drop_zone": "Drag the file here or select it on your computer",
+      "next_button": "Next",
+      "alert_message": "Please upload the scan before proceeding."
+    }
+  },
+  "real_estate_application": {
+    "step1": {
+      "back_button": "Back",
+      "header": "Provision of information from the USRN",
+      "service_helps": "The service helps to:",
+      "get_egrn_extract": "Get an electronic extract or a copy of a document from the USRN",
+      "view_basic_info_online": "View basic information about real estate online",
+      "data_order_change": "Change of data order",
+      "personal_data_access": "Since March 1, 2023, personal data of rights holders is available only to them\nLaw No. 266 of 14.07.2022",
+      "start_button": "Start"
+    },
+    "step2": {
+      "back_button": "Back",
+      "header": "Specify the purpose of the request",
+      "types_of_information": "Types of information from the USRN",
+      "get_online_extract": "Get an online extract",
+      "free_without_plans": "Free, without plans and schemes",
+      "view_online_info": "View real estate information online",
+      "free": "Free",
+      "get_usrn_extract": "Get an extract from the USRN",
+      "with_plans_and_schemes": "With plans and schemes",
+      "get_cadastral_plan": "Get a cadastral plan",
+      "get_document_copy": "Get a document copy",
+      "find_interested_parties": "Find out who was interested in the property"
+    },
+    "step3": {
+      "back_button": "Back",
+      "header": "Specify the type of extract",
+      "characteristics_and_rights": "About characteristics and rights on real estate",
+      "about_real_estate": "About the real estate object",
+      "transition_of_rights": "About the transfer of rights on real estate"
+    },
+    "step4": {
+      "back_button": "Back",
+      "header": "Extract about main characteristics and rights on real estate",
+      "full_name": "Full Name",
+      "description": "Extract from the USRN about the main characteristics and registered rights on the real estate object",
+      "contains": "Contains",
+      "items": {
+        "item1": "Description of the real estate object - cadastral number, type, name, area, floor, length, permitted use, purpose, year of commissioning",
+        "item2": "Cadastral value",
+        "item3": "Information about the owner",
+        "item4": "Type, date and number of state registration of the right and its restrictions",
+        "item5": "Information about the claimed rights in court",
+        "item6": "Information about the impossibility of state registration without the personal participation of the owner or his representative",
+        "item7": "Information about the owner",
+        "item8": "Information about the impossibility of state registration of transfer, termination, restriction of the right to agricultural land"
+      },
+      "cost": "Cost",
+      "price": "210₽",
+      "continue_button": "Continue"
+    },
+    "step5": {
+      "back_button": "Back",
+      "header": "Required information for the request",
+      "items": {
+        "item1": "Passport data",
+        "item2": "Type of real estate",
+        "item3": "Real estate data: number (cadastral or conditional) or address and exact area of the object"
+      },
+      "time_header": "Service provision time",
+      "time_text": "From a few minutes to 3 working days",
+      "cost_header": "Cost",
+      "cost_text": "210₽",
+      "result_header": "Result",
+      "result_text": "An extract from the USRN with an electronic signature will be sent to your personal account",
+      "continue_button": "Proceed to filling out"
+    },
+    "step6": {
+      "back_button": "Back",
+      "header": "Check your data",
+      "loading": "Loading...",
+      "error_message": "Passport data not found",
+      "birth_date": "Date of birth",
+      "passport_title": "Passport of the Republic of Angola",
+      "series_number": "Series and number",
+      "issued_date": "Issued date",
+      "issued_by": "Issued by",
+      "department_code": "Department code",
+      "place_of_birth": "Place of birth",
+      "edit_button": "Edit",
+      "submit_button": "Submit Application"
+    },
+    "step7": {
+      "header": "Application Submitted",
+      "subheader": "What's next",
+      "details": "1. You will receive a notification about the receipt of the statement to your email",
+      "home_button": "Go to Homepage"
+    }
+  },
+  "vaccination_appointment": {
+    "step1": {
+      "back_button": "Back",
+      "header": "Vaccination Appointment",
+      "desc1": "Select any vaccination point in the region of attachment to the clinic and date. Information about the appointment will be in your personal account.",
+      "desc2": "The vaccine consists of two components, which are administered separately, except for the Sputnik Light vaccine, which has a single-component composition. The Sputnik Light vaccine is used to vaccinate patients who have recovered from the new coronavirus infection COVID-19, after 6 months or previously vaccinated (more than 6 months ago) with any vaccine for the prevention of COVID-19.",
+      "vaccine_contraindications": "Vaccination is contraindicated:",
+      "contraindication1": "in acute infectious and non-infectious diseases",
+      "contraindication2": "during exacerbation of chronic diseases",
+      "contraindication3": "in cases of severe allergic reactions previously encountered",
+      "desc3": "under 18 years old - only in the medical organization to which you are attached",
+      "desc4": "over 18 years old - in any available medical organization in the region of attachment",
+      "desc5": "Before the vaccination, the doctor will conduct an examination and determine if you can be vaccinated.",
+      "desc6": "After the final stage of vaccination, you will receive an electronic certificate. It will be available on the portal and in the Gosuslugi application.",
+      "start_button": "Start",
+      "aside_header": "Other materials on the topic",
+      "aside_link": "Registering a child at the place of residence",
+      "aside_type1": "Documents",
+      "aside_type2": "Receipt"
+    },
+    "step2": {
+      "back_button": "Back",
+      "header": "Check the correctness of your data",
+      "policy_number": "Policy number",
+      "expiry_date": "Expiry date",
+      "insurer_id": "Insurer ID",
+      "insurer_name": "Insurer name",
+      "issued_by": "Issued by",
+      "edit_button": "Edit",
+      "confirm_button": "Correct",
+      "error_message": "Insurance data not found",
+      "loading": "Loading..."
+    },
+    "step3": {
+      "back_button": "Back",
+      "header": "What type of vaccination do you need?",
+      "covid": "COVID-19",
+      "flu": "Flu",
+      "hep_b": "Hepatitis B"
+    },
+    "step4": {
+      "back_button": "Back",
+      "header": "Enter Vaccination Point",
+      "label": "Vaccination Point",
+      "submit_button": "Continue"
+    },
+    "step5": {
+      "header": "Enter Visit Date",
+      "label": "Visit Date",
+      "submit_button": "Continue",
+      "back_button": "Back"
+    }
+  }
+}

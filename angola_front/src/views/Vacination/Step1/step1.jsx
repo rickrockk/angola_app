@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import './step1.scss';
 
 function Step1({ updateFormData, nextStep, resetForm }) {
+    const { t } = useTranslation();
 
     const handleSubmit = () => {
-       
         nextStep();
     };
 
@@ -17,37 +18,37 @@ function Step1({ updateFormData, nextStep, resetForm }) {
                             <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#0D4CD3" />
                         </svg>
                         <p className="back-link__text">
-                            Назад
+                            {t('vaccination_appointment.step1.back_button')}
                         </p>
                     </Link>
                     <h3 className="content__header">
-                    Запись на вакцинацию
+                        {t('vaccination_appointment.step1.header')}
                     </h3>
                 </div>
                 <div className="content__body">
-                    <p>Выберите любой пункт вакцинации в регионе прикрепления к поликлинике и дату. Информация о записи будет в личном кабинете</p>
-                    <p>Вакцина состоит из двух компонентов, которые вводятся раздельно, за исключением вакцины Спутник Лайт, которая имеет однокомпонентный состав. Вакцина Спутник Лайт применяется для вакцинации пациентов, перенесших новую коронавирусную инфекцию COVID-19, спустя 6 месяцев или вакцинированных ранее (более 6 месяцев) любой вакциной для профилактики COVID-19</p>
+                    <p>{t('vaccination_appointment.step1.desc1')}</p>
+                    <p>{t('vaccination_appointment.step1.desc2')}</p>
                     <div className="grants_list">
-                        <p>Вакцинация противопоказана:</p>
+                        <p>{t('vaccination_appointment.step1.vaccine_contraindications')}</p>
                         <ul>
-                            <li>при острых инфекционных и неинфекционных заболеваниях</li>
-                            <li>в период обострения хронических заболеваний</li>
-                            <li>при ранее встречавшихся случаях тяжелых аллергических реакций</li>
+                            <li>{t('vaccination_appointment.step1.contraindication1')}</li>
+                            <li>{t('vaccination_appointment.step1.contraindication2')}</li>
+                            <li>{t('vaccination_appointment.step1.contraindication3')}</li>
                         </ul>
                     </div>
-                    <p>моложе 18 лет — только в медорганизацию, к которой есть прикрепление</p>
-                    <p>старше 18 лет — в любую доступную медорганизацию в регионе прикрепления</p>
-                    <p>Перед прививкой врач проведёт осмотр и определит, можно ли вакцинироваться</p>
-                    <p>После финального этапа вакцинации получите электронный сертификат. Он будет доступен на портале и в приложении Госуслуг</p>
-                    <button onClick={handleSubmit}>Начать</button>
+                    <p>{t('vaccination_appointment.step1.desc3')}</p>
+                    <p>{t('vaccination_appointment.step1.desc4')}</p>
+                    <p>{t('vaccination_appointment.step1.desc5')}</p>
+                    <p>{t('vaccination_appointment.step1.desc6')}</p>
+                    <button onClick={handleSubmit}>{t('vaccination_appointment.step1.start_button')}</button>
                 </div>
             </div>
 
             <div className="docs-recovery__aside">
-                <h3 className="aside__header">Другие материалы по теме</h3>
-                <p className="aside__link">Регистрация ребёнка по месту жительства</p>
-                <span className="content__type">Документы</span>
-                <span className="content__type">Получение</span>
+                <h3 className="aside__header">{t('vaccination_appointment.step1.aside_header')}</h3>
+                <p className="aside__link">{t('vaccination_appointment.step1.aside_link')}</p>
+                <span className="content__type">{t('vaccination_appointment.step1.aside_type1')}</span>
+                <span className="content__type">{t('vaccination_appointment.step1.aside_type2')}</span>
             </div>
         </div>
     );

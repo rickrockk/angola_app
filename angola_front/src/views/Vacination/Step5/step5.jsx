@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './step5.scss';
 
 function Step5({ nextStep, prevStep, submitFormData, updateFormData }) {
+    const { t } = useTranslation();
     const [date, setDate] = useState('');
 
     const handleChange = (event) => {
@@ -22,7 +24,7 @@ function Step5({ nextStep, prevStep, submitFormData, updateFormData }) {
     };
 
     const handleBack = () => {
-        prevStep(); // Move to the previous step
+        prevStep();
     };
 
     return (
@@ -30,23 +32,23 @@ function Step5({ nextStep, prevStep, submitFormData, updateFormData }) {
             <div className="docs-recovery__content">
                 <div className="content__heading">
                     <h3 className="content__header">
-                        Введите Дату визита 
+                        {t('vaccination_appointment.step5.header')}
                     </h3>
                 </div>
                 <div className="content__body">
                     <form className="inn-form" onSubmit={handleSubmit}>
-                        <label htmlFor="visit_date">Дата визита</label>
-                        <input 
-                            type="date" 
-                            id="visit_date" 
-                            name="visit_date" 
-                            value={date} 
-                            onChange={handleChange} 
-                            required 
+                        <label htmlFor="visit_date">{t('vaccination_appointment.step5.label')}</label>
+                        <input
+                            type="date"
+                            id="visit_date"
+                            name="visit_date"
+                            value={date}
+                            onChange={handleChange}
+                            required
                         />
-                        <button type="submit">Продолжить</button>
+                        <button type="submit">{t('vaccination_appointment.step5.submit_button')}</button>
                     </form>
-                    <button onClick={handleBack}>Назад</button>
+                    <button onClick={handleBack}>{t('vaccination_appointment.step5.back_button')}</button>
                 </div>
             </div>
         </div>
