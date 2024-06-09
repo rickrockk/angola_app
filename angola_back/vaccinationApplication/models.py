@@ -1,6 +1,7 @@
 # vaccinations/models.py
 from django.db import models
-from authentication.models import User 
+from med_insurance.models import MedInsurance
+from core import settings
 
 class VaсReq(models.Model):
     VACCINE_CHOICES = [
@@ -15,10 +16,12 @@ class VaсReq(models.Model):
         ('отклонено', 'Отклонено'),
     ]
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='Пользователь')
-    age = models.PositiveIntegerField(verbose_name='Возраст')
-    vaccine_type = models.CharField(verbose_name='Тип вакцины', max_length=10, choices=VACCINE_CHOICES)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
+    insurance_data = models.OneToOneField(MedInsurance, on_delete=models.CASCADE, related_name='insurance_vaccination',default=1)
+    vaccine_type = models.CharField(verbose_name='Тип вакцины', max_length=10, choices=VACCINE_CHOICES,default='COVID-19')
     request_date = models.DateTimeField(verbose_name='Дата заявки', auto_now_add=True)
+    point = models.CharField( verbose_name='Пункт вакцинации', max_length=100, default='None')
+    visit_date = models.DateField('Дата вакцинации',) 
     status = models.CharField(verbose_name='Статус', max_length=10, choices=STATUS_CHOICES, default='ожидание')
 
     @property
