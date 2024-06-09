@@ -1,0 +1,36 @@
+.upload__requirements {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .upload__zone {
+    border: 2px dashed #ffc107;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .upload__zone p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .upload__zone input {
+    display: none;
+  }
+  
+  .next-button {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }

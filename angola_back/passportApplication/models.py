@@ -10,12 +10,12 @@ class PasApp(models.Model):
     ]
 
     CAUSE_CHOICES = [
-            ('возраст','Достижение 20 или 45 лет'),
-            ('фио','Изменение фамилии,имени или отчества'),
-            ('обстоятельства','Потеря или непригодность к использованию'),
-            ('ошибка','Ошибка в паспорте'),
-            ('внешность','Изменение внешности'),
-        ]
+        ('возраст','Достижение 20 или 45 лет'),
+        ('фио','Изменение фамилии,имени или отчества'),
+        ('обстоятельства','Потеря или непригодность к использованию'),
+        ('ошибка','Ошибка в паспорте'),
+        ('внешность','Изменение внешности'),
+    ]
 
 
     STATUS_CHOICES = [
@@ -25,7 +25,7 @@ class PasApp(models.Model):
     ]
 
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
-    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES, default='Получение паспорта')
+    application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES, default= 'Получение паспорта')
     passport_data = models.OneToOneField(Passport, on_delete=models.CASCADE, related_name='passport_app', default=1)
     cause = models.CharField(verbose_name='причина', max_length=50, choices=CAUSE_CHOICES, default='Достижение 20 или 45 лет')
     passport_photo = models.ImageField(upload_to='passport_photos/', verbose_name='Фото на паспорт',default=None, blank=False, null=True)

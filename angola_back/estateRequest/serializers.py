@@ -9,3 +9,4 @@ class EstReqSerializer(serializers.ModelSerializer):
         model = EstReq
         fields = ['id', 'user', 'passport_data', 'status']
         read_only_fields = ['user', 'passport_data']
+

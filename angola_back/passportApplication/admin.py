@@ -4,6 +4,6 @@ from .models import PasApp
 
 @admin.register(PasApp)
 class PassportApplicationAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'application_type', 'passport_data']
+    list_display = ['id', 'user', 'application_type',  'passport_data'] 
     list_filter = ['application_type'] 
     search_fields = ['user__email', 'reason'] 

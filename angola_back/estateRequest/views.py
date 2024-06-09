@@ -13,11 +13,11 @@ class EstReqViewSet(viewsets.ModelViewSet):
     def perform_create(self, serializer):
         user = self.request.user
         try:
-            passport_data = Passport.objects.get(user=user)
+            passport_data = Passport.objects.get(user=user) 
         except Passport.DoesNotExist:
             raise ValidationError("У пользователя нет связанного паспорта.")
         serializer.save(user=user, passport_data=passport_data)
-
+    
     def get_queryset(self):
         user = self.request.user
         return EstReq.objects.filter(user=user)
