@@ -13,7 +13,7 @@ function Step1({ updateFormData, nextStep, resetForm }) {
         <div className="docs-recovery__container container">
             <div className="docs-recovery__content">
                 <div className="content__heading">
-                    <Link className="back-link" to='/'>
+                    <Link className="back-link" to='/appointment'>
                         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 1.0125L4.99063 2.18147e-07L-2.18557e-07 5L4.99062 10L6 8.9875L2.02187 5L6 1.0125Z" fill="#0D4CD3" />
                         </svg>
