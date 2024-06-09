@@ -1,0 +1,33 @@
+.requirements-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.requirement-item {
+  margin-bottom: 10px;
+}
+
+.form-subheader {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 auto;
+}

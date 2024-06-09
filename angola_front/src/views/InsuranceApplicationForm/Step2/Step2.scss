@@ -1,0 +1,29 @@
+.back-button {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #CC2229;
+  margin-bottom: 1rem;
+}
+
+.application__type {
+  font-weight: normal;
+  color: #0B1F33;
+}
+
+.btn-arrow {
+  margin-right: .5rem;
+}
+
+.form__recipient-select {
+  margin: 0 auto;
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  font: inherit;
+  background-color: #FFCB00;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}

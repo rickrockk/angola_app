@@ -11,6 +11,8 @@ import Home from "./views/Home/Home.jsx";
 import Auth from "./views/Auth/Auth.jsx";
 import Profile from "./views/Profile/Profile.jsx";
 import PassportApplicationForm from "./views/PassportApplicationForm/PassportApplicationForm.jsx";
+import EstateRequestForm from "./views/EstateRequestForm/EstateRequestForm.jsx";
+import InsuranceApplicationForm from "./views/InsuranceApplicationForm/InsuranceApplicationForm.jsx";
 import Appointment from "./views/Appointment/Appointment";
 import DocsRecovery from "./views/DocumentsRecovery/DocsRecovery";
 import Notifications from "./views/Notifications/Notifications";
@@ -41,6 +43,12 @@ function App() {
                 </Route>
                 <Route exact path='/' element={<PrivateRoute/>}>
                     <Route exact path='/passport_form' element={<PassportApplicationForm/>}/>
+                </Route>
+                <Route exact path='/' element={<PrivateRoute/>}>
+                    <Route exact path='/insurance_form' element={<InsuranceApplicationForm/>}/>
+                </Route>
+                <Route exact path='/' element={<PrivateRoute/>}>
+                    <Route exact path='/estate_request' element={<EstateRequestForm/>}/>
                 </Route>
                 <Route path="/register" element={<Registration/>}/>
                 <Route path="/login" element={<Login/>}/>
