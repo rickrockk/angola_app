@@ -54,8 +54,12 @@ return (
                 </Route>
                 <Route path="/register" element={<Registration/>}/>
                 <Route path="/login" element={<Login/>}/>
-                <Route path="/grant" element = {<FarmerGrantForm/>}/>
-                <Route path="/vaccination" element = {<Vaccination/>}/>
+                <Route exact path='/' element={<PrivateRoute/>}>
+                    <Route path="/grant" element = {<FarmerGrantForm/>}/>
+                </Route>
+                <Route exact path='/' element={<PrivateRoute/>}>
+                    <Route path="/vaccination" element = {<Vaccination/>}/>
+                </Route>
 
             </Routes>
         </BrowserRouter>
