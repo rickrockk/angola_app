@@ -19,3 +19,4 @@ class InsAppSerializer(serializers.ModelSerializer):
         validated_data['user'] = user
         validated_data['passport_data'] = passport
         return super().create(validated_data)
+

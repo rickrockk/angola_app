@@ -11,6 +11,7 @@ from familyFarmingSupport.views import FamFarmViewSet
 from vaccinationApplication.views import VacReqViewSet
 from appointment.views import AppReqViewSet
 from estateRequest.views import EstReqViewSet
+
 router = DefaultRouter()
 
 router.register("user", UserViewSet, basename='user')

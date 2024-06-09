@@ -4,6 +4,7 @@ from django.conf import settings
 from passport.models import Passport
 
 class InsApp(models.Model):
+
     APPLICATION_TYPE_CHOICES = [
         ('получение', 'Получение'),
         ('замена', 'Замена'),

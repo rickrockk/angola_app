@@ -6,3 +6,4 @@ class EstReqAdmin(admin.ModelAdmin):
     list_display = ('user', 'passport_data', 'status')
     list_filter = ('status',)
     search_fields = ('user__username', 'passport_data__passport_number')
+

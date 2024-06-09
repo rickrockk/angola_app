@@ -8,6 +8,7 @@ class PasApp(models.Model):
         ('получение', 'Получение паспорта'),
         ('замена', 'Замена паспорта'),
     ]
+
     CAUSE_CHOICES = [
         ('возраст','Достижение 20 или 45 лет'),
         ('фио','Изменение фамилии,имени или отчества'),
@@ -15,6 +16,7 @@ class PasApp(models.Model):
         ('ошибка','Ошибка в паспорте'),
         ('внешность','Изменение внешности'),
     ]
+
 
     STATUS_CHOICES = [
         ('ожидание', 'Ожидание'),
@@ -26,6 +28,7 @@ class PasApp(models.Model):
     application_type = models.CharField(max_length=50, choices=APPLICATION_TYPE_CHOICES, default= 'Получение паспорта')
     passport_data = models.OneToOneField(Passport, on_delete=models.CASCADE, related_name='passport_app', default=1)
     cause = models.CharField(verbose_name='причина', max_length=50, choices=CAUSE_CHOICES, default='Достижение 20 или 45 лет')
+    passport_photo = models.ImageField(upload_to='passport_photos/', verbose_name='Фото на паспорт',default=None, blank=False, null=True)
     passport_scan = models.ImageField(upload_to='passport_scans/', verbose_name='Скан паспорта',default=None, blank=False, null=True)
     signature_scan = models.ImageField(upload_to='signature_scans/', verbose_name='Скан подписи', default=None, blank=False, null=True)
     marriage_scan = models.ImageField(upload_to='marriage_scans/', verbose_name='Скан брака', default=None, blank=False, null=True)

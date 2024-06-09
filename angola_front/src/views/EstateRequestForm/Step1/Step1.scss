@@ -1,0 +1,45 @@
+.step {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container__content {
+  margin-top: 1rem;
+}
+
+.form__header {
+  margin-top: 1rem;
+  color: #0B1F33;
+}
+
+.step__block {
+  margin-top: 1rem;
+}
+
+.step-1 {
+  box-shadow: 0px 24px 48px 0px rgba(230, 235, 245, 0.40), 0px 1px 4px 0px #E3EBFC;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+
+  .step__desc {
+    width: 55rem;
+    line-height: 24px;
+  }
+
+  .step__undertext {
+    color: #66727F;
+    margin-top: 1rem;
+  }
+}
+
+.start-button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  font: inherit;
+  background-color: #FFCB00;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
