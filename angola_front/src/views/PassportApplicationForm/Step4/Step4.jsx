@@ -31,20 +31,22 @@ const Step4 = ({ prevStep, goToStep, nextStep, applicationType }) => {
                     {t('passport_application.step4.back_button')}
                 </button>
                 <h2 className="form__header">{t('passport_application.step4.header')}</h2>
-                <ul className="requirements-list">
-                    <li className="requirement-item">{t('passport_application.step4.requirements.0')}</li>
-                    <li className="requirement-item">{t('passport_application.step4.requirements.1')}</li>
-                    <li className="requirement-item">{t('passport_application.step4.requirements.2')}</li>
-                    <li className="requirement-item">{t('passport_application.step4.requirements.3')}</li>
+                <ul className="info__list">
+                    <li className="info__item">{t('passport_application.step4.requirements.0')}</li>
+                    <li className="info__item">{t('passport_application.step4.requirements.1')}</li>
+                    <li className="info__item">{t('passport_application.step4.requirements.2')}</li>
+                    <li className="info__item">{t('passport_application.step4.requirements.3')}</li>
                 </ul>
-                <h3 className="form-subheader">{t('passport_application.step4.execution_time.subheader')}</h3>
-                <p className="form-text">{t('passport_application.step4.execution_time.text')}</p>
-                <h3 className="form-subheader">{t('passport_application.step4.cost.subheader')}</h3>
-                <p className="form-text">{t('passport_application.step4.cost.text1')}</p>
-                <p className="form-text">{t('passport_application.step4.cost.text2')}</p>
-                <h3 className="form-subheader">{t('passport_application.step4.what_next.subheader')}</h3>
-                <p className="form-text">{t('passport_application.step4.what_next.text')}</p>
-                <button className="submit-button" onClick={handleForward}>{t('passport_application.step4.next_button')}</button>
+                <div className="form__block">
+                    <h3 className="form-subheader">{t('passport_application.step4.execution_time.subheader')}</h3>
+                    <p className="form-text">{t('passport_application.step4.execution_time.text')}</p>
+                    <h3 className="form-subheader">{t('passport_application.step4.cost.subheader')}</h3>
+                    <p className="form-text">{t('passport_application.step4.cost.text1')}</p>
+                    <p className="form-text">{t('passport_application.step4.cost.text2')}</p>
+                    <h3 className="form-subheader">{t('passport_application.step4.what_next.subheader')}</h3>
+                    <p className="form-text">{t('passport_application.step4.what_next.text')}</p>
+                    <button className="submit-button" onClick={handleForward}>{t('passport_application.step4.next_button')}</button>
+                </div>
             </div>
         </div>
     );

@@ -23,8 +23,8 @@ const Step3 = ({ prevStep, nextStep }) => {
                     {t('insurance_application.step3.back_button')}
                 </button>
                 <h2 className="form__header">{t('insurance_application.step3.header')}</h2>
-                <ul className="requirements-list">
-                    <li className="requirement-item">{t('insurance_application.step3.requirements.passport')}</li>
+                <ul className="info__list">
+                    <li className="info__item">{t('insurance_application.step3.requirements.passport')}</li>
                 </ul>
                 <h3 className="form-subheader">{t('insurance_application.step3.execution_time.subheader')}</h3>
                 <p className="form-text">{t('insurance_application.step3.execution_time.text')}</p>
