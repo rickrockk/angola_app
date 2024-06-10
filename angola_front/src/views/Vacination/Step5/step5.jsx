@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './step5.scss';
+import {useNavigate} from "react-router-dom";
 
 function Step5({ nextStep, prevStep, submitFormData, updateFormData }) {
     const { t } = useTranslation();
     const [date, setDate] = useState('');
+    const navigate = useNavigate();
 
     const handleChange = (event) => {
         const date = event.target.value;
@@ -16,7 +18,7 @@ function Step5({ nextStep, prevStep, submitFormData, updateFormData }) {
         e.preventDefault();
         try {
             submitFormData();
-            nextStep();
+            navigate('/')
         } catch (error) {
             console.error('Ошибка при сохранении данных формы:', error);
             alert('Произошла ошибка при сохранении данных формы. Пожалуйста, попробуйте еще раз.');

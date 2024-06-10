@@ -5,13 +5,13 @@ import './step4.scss';
 function Step4({ nextStep, prevStep, updateFormData }) {
     const { t } = useTranslation();
     const [formData, setFormData] = useState({
-        vaccination_point: ''
+        point: ''
     });
 
     const handleChange = (event) => {
-        const vaccination_point = event.target.value;
-        setFormData({ vaccination_point });
-        updateFormData({ vaccination_point });
+        const point = event.target.value;
+        setFormData({ point });
+        updateFormData({ point });
     };
 
     const handleSubmit = (e) => {
@@ -50,7 +50,7 @@ function Step4({ nextStep, prevStep, updateFormData }) {
                             type="text"
                             id="vaccination_point"
                             name="vaccination_point"
-                            value={formData.vaccination_point}
+                            value={formData.point}
                             onChange={handleChange}
                             required
                         />

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './step7.scss';
 import { useTranslation } from 'react-i18next';
+import {useNavigate} from "react-router-dom";
 
 const Step7 = ({ nextStep, prevStep, updateFormData, submitFormData }) => {
     const { t } = useTranslation();
     const [file, setFile] = useState(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const savedFormData = localStorage.getItem('formData');
@@ -32,6 +34,7 @@ const Step7 = ({ nextStep, prevStep, updateFormData, submitFormData }) => {
     const handleSubmit = () => {
         if (file) {
             submitFormData();
+            navigate('/')
         } else {
             alert(t('grants_application.step7.alert_message'));
         }
