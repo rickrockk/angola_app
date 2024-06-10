@@ -23,9 +23,9 @@ const Step6PhotoUpload = ({ nextStep, prevStep, updateFormData, goToStep, applic
         if (file) {
             if (applicationType === 'получение') {
                 goToStep(9);
-            } else if (cause === 'Изменение фамилии, имени или отчества') {
+            } else if (cause === 'фио') {
                 nextStep();
-            } else if (cause === 'Достижение 20 или 45 лет') {
+            } else if (cause === 'возраст') {
                 goToStep(8);
             } else {
                 goToStep(9);
